@@ -1,0 +1,111 @@
+{
+  "model_id": "EleutherAI/pythia-1.4b-deduped",
+  "objective": "cross_entropy_over_two_candidate_logits",
+  "candidates": {
+    "false": " False",
+    "true": " True",
+    "false_token_id": 16708,
+    "true_token_id": 11793
+  },
+  "all_path": "/content/drive/MyDrive/Test/PreparedData/python_strict_atoms_train.jsonl",
+  "train_split_path": "/content/drive/MyDrive/Test/Python/python_atoms_aux/results/python_strict_atoms_train_split.jsonl",
+  "val_split_path": "/content/drive/MyDrive/Test/Python/python_atoms_aux/results/python_strict_atoms_val_split.jsonl",
+  "num_total_rows": 26128,
+  "num_train_rows": 23515,
+  "num_val_rows": 2613,
+  "uid_overlap_train_val": 0,
+  "epochs": 10,
+  "train_bs": 16,
+  "eval_bs": 16,
+  "grad_accum": 1,
+  "lr": 5e-05,
+  "max_length": 256,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.05,
+  "val_fraction": 0.1,
+  "lora_r": 64,
+  "lora_alpha": 64,
+  "lora_dropout": 0.1,
+  "lora_target_modules": [
+    "query_key_value",
+    "dense",
+    "dense_h_to_4h",
+    "dense_4h_to_h"
+  ],
+  "best_val_loss": 0.48732052997844977,
+  "adapter_best_dir": "/content/drive/MyDrive/Test/Python/python_atoms_aux/best",
+  "adapter_last_dir": "/content/drive/MyDrive/Test/Python/python_atoms_aux/last",
+  "selection_rule": "best adapter is selected by lowest validation two-candidate probability loss",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.6822219035860633,
+      "train_acc": 0.5846906230065916,
+      "val_loss": 0.6332927097271128,
+      "val_acc": 0.5947187141216992
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.6056000522813019,
+      "train_acc": 0.6347437805655964,
+      "val_loss": 0.5830141925593701,
+      "val_acc": 0.6398775353999234
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5875619442892723,
+      "train_acc": 0.6381458643419095,
+      "val_loss": 0.5916699487261656,
+      "val_acc": 0.6398775353999234
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.580687289902953,
+      "train_acc": 0.6378056559642781,
+      "val_loss": 0.6009574540686317,
+      "val_acc": 0.6421737466513586
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.566364376581445,
+      "train_acc": 0.6604720391239635,
+      "val_loss": 0.5842578025852762,
+      "val_acc": 0.6739380022962113
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.5445141044198251,
+      "train_acc": 0.6765468849670423,
+      "val_loss": 0.5168008626234241,
+      "val_acc": 0.6934557979334098
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.5092428477949836,
+      "train_acc": 0.6964065490112694,
+      "val_loss": 0.505477441792808,
+      "val_acc": 0.6858017604286261
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.5016536830132511,
+      "train_acc": 0.7028279821390602,
+      "val_loss": 0.5046305502878456,
+      "val_acc": 0.7060849598163031
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.4944318102026472,
+      "train_acc": 0.7100999362109292,
+      "val_loss": 0.49336236497251,
+      "val_acc": 0.7091465748182166
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.4894439450940307,
+      "train_acc": 0.715032957686583,
+      "val_loss": 0.48732052997844977,
+      "val_acc": 0.711825487944891
+    }
+  ]
+}

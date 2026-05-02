@@ -1,0 +1,2401 @@
+[
+  {
+    "bucket_key": "('logic', 'rule', 'atom', 'a')",
+    "canonical_id": "rule|surface|a|speaker=3",
+    "equiv_id": "rule|truth|vars=a|tt=01|speaker=3",
+    "meta": {
+      "canonical": "surface|a",
+      "equiv": "truth|vars=a|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "a",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "a",
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "rule|a|speaker=3",
+    "text_en": "Shelley says: Eyal is truthful",
+    "text_py": "    rule_4 = a"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'atom', 'b')",
+    "canonical_id": "rule|surface|not_b|speaker=1",
+    "equiv_id": "rule|truth|vars=b|tt=10|speaker=1",
+    "meta": {
+      "canonical": "surface|not_b",
+      "equiv": "truth|vars=b|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "not_b",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "b",
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "rule|not_b|speaker=1",
+    "text_en": "Shahar says: Shahar is lying",
+    "text_py": "    rule_2 = (not b)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'atom', 'b')",
+    "canonical_id": "rule|surface|not_b|speaker=3",
+    "equiv_id": "rule|truth|vars=b|tt=10|speaker=3",
+    "meta": {
+      "canonical": "surface|not_b",
+      "equiv": "truth|vars=b|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "not_b",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "b",
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "rule|not_b|speaker=3",
+    "text_en": "Shelley says: Shahar is lying",
+    "text_py": "    rule_4 = (not b)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'atom', 'c')",
+    "canonical_id": "rule|surface|c|speaker=0",
+    "equiv_id": "rule|truth|vars=c|tt=01|speaker=0",
+    "meta": {
+      "canonical": "surface|c",
+      "equiv": "truth|vars=c|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "c",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "rule|c|speaker=0",
+    "text_en": "Eyal says: Noa is truthful",
+    "text_py": "    rule_1 = c"
+  },
+  {
+    "bucket_key": "('logic', 'expr', 'atom', 'd')",
+    "canonical_id": "expr|surface|d",
+    "equiv_id": "expr|truth|vars=d|tt=01",
+    "meta": {
+      "canonical": "surface|d",
+      "equiv": "truth|vars=d|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "same_variable": 0,
+      "surface": "d",
+      "text_mode": "expr",
+      "truth_table": "01",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "expr|d",
+    "text_en": "Shelley is truthful",
+    "text_py": "d"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'atom', 'd')",
+    "canonical_id": "rule|surface|d|speaker=1",
+    "equiv_id": "rule|truth|vars=d|tt=01|speaker=1",
+    "meta": {
+      "canonical": "surface|d",
+      "equiv": "truth|vars=d|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "d",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "rule|d|speaker=1",
+    "text_en": "Shahar says: Shelley is truthful",
+    "text_py": "    rule_2 = d"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'atom', 'd')",
+    "canonical_id": "rule|surface|d|speaker=2",
+    "equiv_id": "rule|truth|vars=d|tt=01|speaker=2",
+    "meta": {
+      "canonical": "surface|d",
+      "equiv": "truth|vars=d|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "d",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "rule|d|speaker=2",
+    "text_en": "Noa says: Shelley is truthful",
+    "text_py": "    rule_3 = d"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'samevar', 'or', 'a')",
+    "canonical_id": "rule|surface|or(a,a)|speaker=2",
+    "equiv_id": "rule|truth|vars=a|tt=01|speaker=2",
+    "meta": {
+      "canonical": "surface|or(a,a)",
+      "equiv": "truth|vars=a|tt=01",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "or",
+      "same_variable": 1,
+      "speaker_idx": 2,
+      "surface": "or(a,a)",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "vars_ordered": [
+        "a",
+        "a"
+      ],
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "rule|or(a,a)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Eyal is truthful; Eyal is truthful",
+    "text_py": "    rule_3 = a or a"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'samevar', 'or', 'a')",
+    "canonical_id": "rule|surface|or(a,a)|speaker=3",
+    "equiv_id": "rule|truth|vars=a|tt=01|speaker=3",
+    "meta": {
+      "canonical": "surface|or(a,a)",
+      "equiv": "truth|vars=a|tt=01",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "or",
+      "same_variable": 1,
+      "speaker_idx": 3,
+      "surface": "or(a,a)",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "vars_ordered": [
+        "a",
+        "a"
+      ],
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "rule|or(a,a)|speaker=3",
+    "text_en": "Shelley says: at least one of the following is True: Eyal is truthful; Eyal is truthful",
+    "text_py": "    rule_4 = a or a"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'samevar', 'or', 'a')",
+    "canonical_id": "rule|surface|or(a,not_a)|speaker=2",
+    "equiv_id": "rule|truth|vars=a|tt=11|speaker=2",
+    "meta": {
+      "canonical": "surface|or(a,not_a)",
+      "equiv": "truth|vars=a|tt=11",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "or",
+      "same_variable": 1,
+      "speaker_idx": 2,
+      "surface": "or(a,not_a)",
+      "text_mode": "rule",
+      "truth_table": "11",
+      "vars_ordered": [
+        "a",
+        "a"
+      ],
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "rule|or(a,not_a)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Eyal is truthful; Eyal is lying",
+    "text_py": "    rule_3 = a or (not a)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('a', 'c'))",
+    "canonical_id": "rule|surface|or(a,c)|speaker=2",
+    "equiv_id": "rule|truth|vars=a,c|tt=0111|speaker=2",
+    "meta": {
+      "canonical": "surface|or(a,c)",
+      "equiv": "truth|vars=a,c|tt=0111",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "or(a,c)",
+      "text_mode": "rule",
+      "truth_table": "0111",
+      "vars_ordered": [
+        "a",
+        "c"
+      ],
+      "vars_used": [
+        "a",
+        "c"
+      ]
+    },
+    "semantic_id": "rule|or(a,c)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Eyal is truthful; Noa is truthful",
+    "text_py": "    rule_3 = a or c"
+  },
+  {
+    "bucket_key": "('logic', 'expr', 'bin_ordered_vars', ('a', 'c'))",
+    "canonical_id": "expr|surface|or(a,not_c)",
+    "equiv_id": "expr|truth|vars=a,c|tt=1011",
+    "meta": {
+      "canonical": "surface|or(a,not_c)",
+      "equiv": "truth|vars=a,c|tt=1011",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "surface": "or(a,not_c)",
+      "text_mode": "expr",
+      "truth_table": "1011",
+      "vars_ordered": [
+        "a",
+        "c"
+      ],
+      "vars_used": [
+        "a",
+        "c"
+      ]
+    },
+    "semantic_id": "expr|or(a,not_c)",
+    "text_en": "at least one of the following is True: Eyal is truthful; Noa is lying",
+    "text_py": "a or (not c)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('a', 'd'))",
+    "canonical_id": "rule|surface|or(a,d)|speaker=2",
+    "equiv_id": "rule|truth|vars=a,d|tt=0111|speaker=2",
+    "meta": {
+      "canonical": "surface|or(a,d)",
+      "equiv": "truth|vars=a,d|tt=0111",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "or(a,d)",
+      "text_mode": "rule",
+      "truth_table": "0111",
+      "vars_ordered": [
+        "a",
+        "d"
+      ],
+      "vars_used": [
+        "a",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(a,d)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Eyal is truthful; Shelley is truthful",
+    "text_py": "    rule_3 = a or d"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('a', 'd'))",
+    "canonical_id": "rule|surface|or(a,d)|speaker=3",
+    "equiv_id": "rule|truth|vars=a,d|tt=0111|speaker=3",
+    "meta": {
+      "canonical": "surface|or(a,d)",
+      "equiv": "truth|vars=a,d|tt=0111",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "or(a,d)",
+      "text_mode": "rule",
+      "truth_table": "0111",
+      "vars_ordered": [
+        "a",
+        "d"
+      ],
+      "vars_used": [
+        "a",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(a,d)|speaker=3",
+    "text_en": "Shelley says: at least one of the following is True: Eyal is truthful; Shelley is truthful",
+    "text_py": "    rule_4 = a or d"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'samevar', 'or', 'a')",
+    "canonical_id": "rule|surface|or(not_a,a)|speaker=3",
+    "equiv_id": "rule|truth|vars=a|tt=11|speaker=3",
+    "meta": {
+      "canonical": "surface|or(not_a,a)",
+      "equiv": "truth|vars=a|tt=11",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        0
+      ],
+      "op": "or",
+      "same_variable": 1,
+      "speaker_idx": 3,
+      "surface": "or(not_a,a)",
+      "text_mode": "rule",
+      "truth_table": "11",
+      "vars_ordered": [
+        "a",
+        "a"
+      ],
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "rule|or(not_a,a)|speaker=3",
+    "text_en": "Shelley says: at least one of the following is True: Eyal is lying; Eyal is truthful",
+    "text_py": "    rule_4 = (not a) or a"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'samevar', 'or', 'a')",
+    "canonical_id": "rule|surface|or(not_a,not_a)|speaker=2",
+    "equiv_id": "rule|truth|vars=a|tt=10|speaker=2",
+    "meta": {
+      "canonical": "surface|or(not_a,not_a)",
+      "equiv": "truth|vars=a|tt=10",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        1
+      ],
+      "op": "or",
+      "same_variable": 1,
+      "speaker_idx": 2,
+      "surface": "or(not_a,not_a)",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "vars_ordered": [
+        "a",
+        "a"
+      ],
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "rule|or(not_a,not_a)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Eyal is lying; Eyal is lying",
+    "text_py": "    rule_3 = (not a) or (not a)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('a', 'c'))",
+    "canonical_id": "rule|surface|or(not_a,c)|speaker=2",
+    "equiv_id": "rule|truth|vars=a,c|tt=1101|speaker=2",
+    "meta": {
+      "canonical": "surface|or(not_a,c)",
+      "equiv": "truth|vars=a,c|tt=1101",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        0
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "or(not_a,c)",
+      "text_mode": "rule",
+      "truth_table": "1101",
+      "vars_ordered": [
+        "a",
+        "c"
+      ],
+      "vars_used": [
+        "a",
+        "c"
+      ]
+    },
+    "semantic_id": "rule|or(not_a,c)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Eyal is lying; Noa is truthful",
+    "text_py": "    rule_3 = (not a) or c"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('a', 'd'))",
+    "canonical_id": "rule|surface|or(not_a,d)|speaker=3",
+    "equiv_id": "rule|truth|vars=a,d|tt=1101|speaker=3",
+    "meta": {
+      "canonical": "surface|or(not_a,d)",
+      "equiv": "truth|vars=a,d|tt=1101",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        0
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "or(not_a,d)",
+      "text_mode": "rule",
+      "truth_table": "1101",
+      "vars_ordered": [
+        "a",
+        "d"
+      ],
+      "vars_used": [
+        "a",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(not_a,d)|speaker=3",
+    "text_en": "Shelley says: at least one of the following is True: Eyal is lying; Shelley is truthful",
+    "text_py": "    rule_4 = (not a) or d"
+  },
+  {
+    "bucket_key": "('logic', 'expr', 'bin_ordered_vars', ('a', 'd'))",
+    "canonical_id": "expr|surface|or(not_a,not_d)",
+    "equiv_id": "expr|truth|vars=a,d|tt=1110",
+    "meta": {
+      "canonical": "surface|or(not_a,not_d)",
+      "equiv": "truth|vars=a,d|tt=1110",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "surface": "or(not_a,not_d)",
+      "text_mode": "expr",
+      "truth_table": "1110",
+      "vars_ordered": [
+        "a",
+        "d"
+      ],
+      "vars_used": [
+        "a",
+        "d"
+      ]
+    },
+    "semantic_id": "expr|or(not_a,not_d)",
+    "text_en": "at least one of the following is True: Eyal is lying; Shelley is lying",
+    "text_py": "(not a) or (not d)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('b', 'a'))",
+    "canonical_id": "rule|surface|or(b,a)|speaker=1",
+    "equiv_id": "rule|truth|vars=a,b|tt=0111|speaker=1",
+    "meta": {
+      "canonical": "surface|or(b,a)",
+      "equiv": "truth|vars=a,b|tt=0111",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "or(b,a)",
+      "text_mode": "rule",
+      "truth_table": "0111",
+      "vars_ordered": [
+        "b",
+        "a"
+      ],
+      "vars_used": [
+        "a",
+        "b"
+      ]
+    },
+    "semantic_id": "rule|or(b,a)|speaker=1",
+    "text_en": "Shahar says: at least one of the following is True: Shahar is truthful; Eyal is truthful",
+    "text_py": "    rule_2 = b or a"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('b', 'a'))",
+    "canonical_id": "rule|surface|or(b,not_a)|speaker=2",
+    "equiv_id": "rule|truth|vars=a,b|tt=1101|speaker=2",
+    "meta": {
+      "canonical": "surface|or(b,not_a)",
+      "equiv": "truth|vars=a,b|tt=1101",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "or(b,not_a)",
+      "text_mode": "rule",
+      "truth_table": "1101",
+      "vars_ordered": [
+        "b",
+        "a"
+      ],
+      "vars_used": [
+        "a",
+        "b"
+      ]
+    },
+    "semantic_id": "rule|or(b,not_a)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Shahar is truthful; Eyal is lying",
+    "text_py": "    rule_3 = b or (not a)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'samevar', 'or', 'b')",
+    "canonical_id": "rule|surface|or(b,b)|speaker=1",
+    "equiv_id": "rule|truth|vars=b|tt=01|speaker=1",
+    "meta": {
+      "canonical": "surface|or(b,b)",
+      "equiv": "truth|vars=b|tt=01",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "or",
+      "same_variable": 1,
+      "speaker_idx": 1,
+      "surface": "or(b,b)",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "vars_ordered": [
+        "b",
+        "b"
+      ],
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "rule|or(b,b)|speaker=1",
+    "text_en": "Shahar says: at least one of the following is True: Shahar is truthful; Shahar is truthful",
+    "text_py": "    rule_2 = b or b"
+  },
+  {
+    "bucket_key": "('logic', 'expr', 'bin_ordered_vars', ('b', 'c'))",
+    "canonical_id": "expr|surface|or(b,c)",
+    "equiv_id": "expr|truth|vars=b,c|tt=0111",
+    "meta": {
+      "canonical": "surface|or(b,c)",
+      "equiv": "truth|vars=b,c|tt=0111",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "surface": "or(b,c)",
+      "text_mode": "expr",
+      "truth_table": "0111",
+      "vars_ordered": [
+        "b",
+        "c"
+      ],
+      "vars_used": [
+        "b",
+        "c"
+      ]
+    },
+    "semantic_id": "expr|or(b,c)",
+    "text_en": "at least one of the following is True: Shahar is truthful; Noa is truthful",
+    "text_py": "b or c"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('b', 'c'))",
+    "canonical_id": "rule|surface|or(b,c)|speaker=2",
+    "equiv_id": "rule|truth|vars=b,c|tt=0111|speaker=2",
+    "meta": {
+      "canonical": "surface|or(b,c)",
+      "equiv": "truth|vars=b,c|tt=0111",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "or(b,c)",
+      "text_mode": "rule",
+      "truth_table": "0111",
+      "vars_ordered": [
+        "b",
+        "c"
+      ],
+      "vars_used": [
+        "b",
+        "c"
+      ]
+    },
+    "semantic_id": "rule|or(b,c)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Shahar is truthful; Noa is truthful",
+    "text_py": "    rule_3 = b or c"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('b', 'd'))",
+    "canonical_id": "rule|surface|or(b,d)|speaker=3",
+    "equiv_id": "rule|truth|vars=b,d|tt=0111|speaker=3",
+    "meta": {
+      "canonical": "surface|or(b,d)",
+      "equiv": "truth|vars=b,d|tt=0111",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "or(b,d)",
+      "text_mode": "rule",
+      "truth_table": "0111",
+      "vars_ordered": [
+        "b",
+        "d"
+      ],
+      "vars_used": [
+        "b",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(b,d)|speaker=3",
+    "text_en": "Shelley says: at least one of the following is True: Shahar is truthful; Shelley is truthful",
+    "text_py": "    rule_4 = b or d"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('b', 'a'))",
+    "canonical_id": "rule|surface|or(not_b,a)|speaker=2",
+    "equiv_id": "rule|truth|vars=a,b|tt=1011|speaker=2",
+    "meta": {
+      "canonical": "surface|or(not_b,a)",
+      "equiv": "truth|vars=a,b|tt=1011",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        0
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "or(not_b,a)",
+      "text_mode": "rule",
+      "truth_table": "1011",
+      "vars_ordered": [
+        "b",
+        "a"
+      ],
+      "vars_used": [
+        "a",
+        "b"
+      ]
+    },
+    "semantic_id": "rule|or(not_b,a)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Shahar is lying; Eyal is truthful",
+    "text_py": "    rule_3 = (not b) or a"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('b', 'a'))",
+    "canonical_id": "rule|surface|or(not_b,a)|speaker=3",
+    "equiv_id": "rule|truth|vars=a,b|tt=1011|speaker=3",
+    "meta": {
+      "canonical": "surface|or(not_b,a)",
+      "equiv": "truth|vars=a,b|tt=1011",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        0
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "or(not_b,a)",
+      "text_mode": "rule",
+      "truth_table": "1011",
+      "vars_ordered": [
+        "b",
+        "a"
+      ],
+      "vars_used": [
+        "a",
+        "b"
+      ]
+    },
+    "semantic_id": "rule|or(not_b,a)|speaker=3",
+    "text_en": "Shelley says: at least one of the following is True: Shahar is lying; Eyal is truthful",
+    "text_py": "    rule_4 = (not b) or a"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('b', 'c'))",
+    "canonical_id": "rule|surface|or(not_b,c)|speaker=1",
+    "equiv_id": "rule|truth|vars=b,c|tt=1101|speaker=1",
+    "meta": {
+      "canonical": "surface|or(not_b,c)",
+      "equiv": "truth|vars=b,c|tt=1101",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        0
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "or(not_b,c)",
+      "text_mode": "rule",
+      "truth_table": "1101",
+      "vars_ordered": [
+        "b",
+        "c"
+      ],
+      "vars_used": [
+        "b",
+        "c"
+      ]
+    },
+    "semantic_id": "rule|or(not_b,c)|speaker=1",
+    "text_en": "Shahar says: at least one of the following is True: Shahar is lying; Noa is truthful",
+    "text_py": "    rule_2 = (not b) or c"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('c', 'a'))",
+    "canonical_id": "rule|surface|or(c,not_a)|speaker=0",
+    "equiv_id": "rule|truth|vars=a,c|tt=1101|speaker=0",
+    "meta": {
+      "canonical": "surface|or(c,not_a)",
+      "equiv": "truth|vars=a,c|tt=1101",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "or(c,not_a)",
+      "text_mode": "rule",
+      "truth_table": "1101",
+      "vars_ordered": [
+        "c",
+        "a"
+      ],
+      "vars_used": [
+        "a",
+        "c"
+      ]
+    },
+    "semantic_id": "rule|or(c,not_a)|speaker=0",
+    "text_en": "Eyal says: at least one of the following is True: Noa is truthful; Eyal is lying",
+    "text_py": "    rule_1 = c or (not a)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('c', 'a'))",
+    "canonical_id": "rule|surface|or(c,not_a)|speaker=1",
+    "equiv_id": "rule|truth|vars=a,c|tt=1101|speaker=1",
+    "meta": {
+      "canonical": "surface|or(c,not_a)",
+      "equiv": "truth|vars=a,c|tt=1101",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "or(c,not_a)",
+      "text_mode": "rule",
+      "truth_table": "1101",
+      "vars_ordered": [
+        "c",
+        "a"
+      ],
+      "vars_used": [
+        "a",
+        "c"
+      ]
+    },
+    "semantic_id": "rule|or(c,not_a)|speaker=1",
+    "text_en": "Shahar says: at least one of the following is True: Noa is truthful; Eyal is lying",
+    "text_py": "    rule_2 = c or (not a)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('c', 'a'))",
+    "canonical_id": "rule|surface|or(c,not_a)|speaker=2",
+    "equiv_id": "rule|truth|vars=a,c|tt=1101|speaker=2",
+    "meta": {
+      "canonical": "surface|or(c,not_a)",
+      "equiv": "truth|vars=a,c|tt=1101",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "or(c,not_a)",
+      "text_mode": "rule",
+      "truth_table": "1101",
+      "vars_ordered": [
+        "c",
+        "a"
+      ],
+      "vars_used": [
+        "a",
+        "c"
+      ]
+    },
+    "semantic_id": "rule|or(c,not_a)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Noa is truthful; Eyal is lying",
+    "text_py": "    rule_3 = c or (not a)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('c', 'b'))",
+    "canonical_id": "rule|surface|or(c,not_b)|speaker=0",
+    "equiv_id": "rule|truth|vars=b,c|tt=1101|speaker=0",
+    "meta": {
+      "canonical": "surface|or(c,not_b)",
+      "equiv": "truth|vars=b,c|tt=1101",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "or(c,not_b)",
+      "text_mode": "rule",
+      "truth_table": "1101",
+      "vars_ordered": [
+        "c",
+        "b"
+      ],
+      "vars_used": [
+        "b",
+        "c"
+      ]
+    },
+    "semantic_id": "rule|or(c,not_b)|speaker=0",
+    "text_en": "Eyal says: at least one of the following is True: Noa is truthful; Shahar is lying",
+    "text_py": "    rule_1 = c or (not b)"
+  },
+  {
+    "bucket_key": "('logic', 'expr', 'bin_ordered_vars', ('c', 'd'))",
+    "canonical_id": "expr|surface|or(c,not_d)",
+    "equiv_id": "expr|truth|vars=c,d|tt=1011",
+    "meta": {
+      "canonical": "surface|or(c,not_d)",
+      "equiv": "truth|vars=c,d|tt=1011",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "surface": "or(c,not_d)",
+      "text_mode": "expr",
+      "truth_table": "1011",
+      "vars_ordered": [
+        "c",
+        "d"
+      ],
+      "vars_used": [
+        "c",
+        "d"
+      ]
+    },
+    "semantic_id": "expr|or(c,not_d)",
+    "text_en": "at least one of the following is True: Noa is truthful; Shelley is lying",
+    "text_py": "c or (not d)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('c', 'a'))",
+    "canonical_id": "rule|surface|or(not_c,not_a)|speaker=2",
+    "equiv_id": "rule|truth|vars=a,c|tt=1110|speaker=2",
+    "meta": {
+      "canonical": "surface|or(not_c,not_a)",
+      "equiv": "truth|vars=a,c|tt=1110",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "or(not_c,not_a)",
+      "text_mode": "rule",
+      "truth_table": "1110",
+      "vars_ordered": [
+        "c",
+        "a"
+      ],
+      "vars_used": [
+        "a",
+        "c"
+      ]
+    },
+    "semantic_id": "rule|or(not_c,not_a)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Noa is lying; Eyal is lying",
+    "text_py": "    rule_3 = (not c) or (not a)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'samevar', 'or', 'c')",
+    "canonical_id": "rule|surface|or(not_c,c)|speaker=3",
+    "equiv_id": "rule|truth|vars=c|tt=11|speaker=3",
+    "meta": {
+      "canonical": "surface|or(not_c,c)",
+      "equiv": "truth|vars=c|tt=11",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        0
+      ],
+      "op": "or",
+      "same_variable": 1,
+      "speaker_idx": 3,
+      "surface": "or(not_c,c)",
+      "text_mode": "rule",
+      "truth_table": "11",
+      "vars_ordered": [
+        "c",
+        "c"
+      ],
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "rule|or(not_c,c)|speaker=3",
+    "text_en": "Shelley says: at least one of the following is True: Noa is lying; Noa is truthful",
+    "text_py": "    rule_4 = (not c) or c"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('c', 'd'))",
+    "canonical_id": "rule|surface|or(not_c,not_d)|speaker=0",
+    "equiv_id": "rule|truth|vars=c,d|tt=1110|speaker=0",
+    "meta": {
+      "canonical": "surface|or(not_c,not_d)",
+      "equiv": "truth|vars=c,d|tt=1110",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "or(not_c,not_d)",
+      "text_mode": "rule",
+      "truth_table": "1110",
+      "vars_ordered": [
+        "c",
+        "d"
+      ],
+      "vars_used": [
+        "c",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(not_c,not_d)|speaker=0",
+    "text_en": "Eyal says: at least one of the following is True: Noa is lying; Shelley is lying",
+    "text_py": "    rule_1 = (not c) or (not d)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('d', 'a'))",
+    "canonical_id": "rule|surface|or(d,a)|speaker=1",
+    "equiv_id": "rule|truth|vars=a,d|tt=0111|speaker=1",
+    "meta": {
+      "canonical": "surface|or(d,a)",
+      "equiv": "truth|vars=a,d|tt=0111",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "or(d,a)",
+      "text_mode": "rule",
+      "truth_table": "0111",
+      "vars_ordered": [
+        "d",
+        "a"
+      ],
+      "vars_used": [
+        "a",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(d,a)|speaker=1",
+    "text_en": "Shahar says: at least one of the following is True: Shelley is truthful; Eyal is truthful",
+    "text_py": "    rule_2 = d or a"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('d', 'b'))",
+    "canonical_id": "rule|surface|or(d,not_b)|speaker=3",
+    "equiv_id": "rule|truth|vars=b,d|tt=1101|speaker=3",
+    "meta": {
+      "canonical": "surface|or(d,not_b)",
+      "equiv": "truth|vars=b,d|tt=1101",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "or(d,not_b)",
+      "text_mode": "rule",
+      "truth_table": "1101",
+      "vars_ordered": [
+        "d",
+        "b"
+      ],
+      "vars_used": [
+        "b",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(d,not_b)|speaker=3",
+    "text_en": "Shelley says: at least one of the following is True: Shelley is truthful; Shahar is lying",
+    "text_py": "    rule_4 = d or (not b)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('d', 'c'))",
+    "canonical_id": "rule|surface|or(d,c)|speaker=1",
+    "equiv_id": "rule|truth|vars=c,d|tt=0111|speaker=1",
+    "meta": {
+      "canonical": "surface|or(d,c)",
+      "equiv": "truth|vars=c,d|tt=0111",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "or(d,c)",
+      "text_mode": "rule",
+      "truth_table": "0111",
+      "vars_ordered": [
+        "d",
+        "c"
+      ],
+      "vars_used": [
+        "c",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(d,c)|speaker=1",
+    "text_en": "Shahar says: at least one of the following is True: Shelley is truthful; Noa is truthful",
+    "text_py": "    rule_2 = d or c"
+  },
+  {
+    "bucket_key": "('logic', 'expr', 'bin_ordered_vars', ('d', 'c'))",
+    "canonical_id": "expr|surface|or(d,not_c)",
+    "equiv_id": "expr|truth|vars=c,d|tt=1101",
+    "meta": {
+      "canonical": "surface|or(d,not_c)",
+      "equiv": "truth|vars=c,d|tt=1101",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "surface": "or(d,not_c)",
+      "text_mode": "expr",
+      "truth_table": "1101",
+      "vars_ordered": [
+        "d",
+        "c"
+      ],
+      "vars_used": [
+        "c",
+        "d"
+      ]
+    },
+    "semantic_id": "expr|or(d,not_c)",
+    "text_en": "at least one of the following is True: Shelley is truthful; Noa is lying",
+    "text_py": "d or (not c)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('d', 'c'))",
+    "canonical_id": "rule|surface|or(d,not_c)|speaker=3",
+    "equiv_id": "rule|truth|vars=c,d|tt=1101|speaker=3",
+    "meta": {
+      "canonical": "surface|or(d,not_c)",
+      "equiv": "truth|vars=c,d|tt=1101",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "or(d,not_c)",
+      "text_mode": "rule",
+      "truth_table": "1101",
+      "vars_ordered": [
+        "d",
+        "c"
+      ],
+      "vars_used": [
+        "c",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(d,not_c)|speaker=3",
+    "text_en": "Shelley says: at least one of the following is True: Shelley is truthful; Noa is lying",
+    "text_py": "    rule_4 = d or (not c)"
+  },
+  {
+    "bucket_key": "('logic', 'expr', 'samevar', 'or', 'd')",
+    "canonical_id": "expr|surface|or(d,d)",
+    "equiv_id": "expr|truth|vars=d|tt=01",
+    "meta": {
+      "canonical": "surface|or(d,d)",
+      "equiv": "truth|vars=d|tt=01",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "or",
+      "same_variable": 1,
+      "surface": "or(d,d)",
+      "text_mode": "expr",
+      "truth_table": "01",
+      "vars_ordered": [
+        "d",
+        "d"
+      ],
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "expr|or(d,d)",
+    "text_en": "at least one of the following is True: Shelley is truthful; Shelley is truthful",
+    "text_py": "d or d"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'samevar', 'or', 'd')",
+    "canonical_id": "rule|surface|or(d,d)|speaker=2",
+    "equiv_id": "rule|truth|vars=d|tt=01|speaker=2",
+    "meta": {
+      "canonical": "surface|or(d,d)",
+      "equiv": "truth|vars=d|tt=01",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "or",
+      "same_variable": 1,
+      "speaker_idx": 2,
+      "surface": "or(d,d)",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "vars_ordered": [
+        "d",
+        "d"
+      ],
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(d,d)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Shelley is truthful; Shelley is truthful",
+    "text_py": "    rule_3 = d or d"
+  },
+  {
+    "bucket_key": "('logic', 'expr', 'samevar', 'or', 'd')",
+    "canonical_id": "expr|surface|or(d,not_d)",
+    "equiv_id": "expr|truth|vars=d|tt=11",
+    "meta": {
+      "canonical": "surface|or(d,not_d)",
+      "equiv": "truth|vars=d|tt=11",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "or",
+      "same_variable": 1,
+      "surface": "or(d,not_d)",
+      "text_mode": "expr",
+      "truth_table": "11",
+      "vars_ordered": [
+        "d",
+        "d"
+      ],
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "expr|or(d,not_d)",
+    "text_en": "at least one of the following is True: Shelley is truthful; Shelley is lying",
+    "text_py": "d or (not d)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('d', 'a'))",
+    "canonical_id": "rule|surface|or(not_d,a)|speaker=2",
+    "equiv_id": "rule|truth|vars=a,d|tt=1011|speaker=2",
+    "meta": {
+      "canonical": "surface|or(not_d,a)",
+      "equiv": "truth|vars=a,d|tt=1011",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        0
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "or(not_d,a)",
+      "text_mode": "rule",
+      "truth_table": "1011",
+      "vars_ordered": [
+        "d",
+        "a"
+      ],
+      "vars_used": [
+        "a",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(not_d,a)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Shelley is lying; Eyal is truthful",
+    "text_py": "    rule_3 = (not d) or a"
+  },
+  {
+    "bucket_key": "('logic', 'expr', 'bin_ordered_vars', ('d', 'a'))",
+    "canonical_id": "expr|surface|or(not_d,not_a)",
+    "equiv_id": "expr|truth|vars=a,d|tt=1110",
+    "meta": {
+      "canonical": "surface|or(not_d,not_a)",
+      "equiv": "truth|vars=a,d|tt=1110",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "surface": "or(not_d,not_a)",
+      "text_mode": "expr",
+      "truth_table": "1110",
+      "vars_ordered": [
+        "d",
+        "a"
+      ],
+      "vars_used": [
+        "a",
+        "d"
+      ]
+    },
+    "semantic_id": "expr|or(not_d,not_a)",
+    "text_en": "at least one of the following is True: Shelley is lying; Eyal is lying",
+    "text_py": "(not d) or (not a)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('d', 'a'))",
+    "canonical_id": "rule|surface|or(not_d,not_a)|speaker=2",
+    "equiv_id": "rule|truth|vars=a,d|tt=1110|speaker=2",
+    "meta": {
+      "canonical": "surface|or(not_d,not_a)",
+      "equiv": "truth|vars=a,d|tt=1110",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "or(not_d,not_a)",
+      "text_mode": "rule",
+      "truth_table": "1110",
+      "vars_ordered": [
+        "d",
+        "a"
+      ],
+      "vars_used": [
+        "a",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(not_d,not_a)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Shelley is lying; Eyal is lying",
+    "text_py": "    rule_3 = (not d) or (not a)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('d', 'b'))",
+    "canonical_id": "rule|surface|or(not_d,b)|speaker=2",
+    "equiv_id": "rule|truth|vars=b,d|tt=1011|speaker=2",
+    "meta": {
+      "canonical": "surface|or(not_d,b)",
+      "equiv": "truth|vars=b,d|tt=1011",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        0
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "or(not_d,b)",
+      "text_mode": "rule",
+      "truth_table": "1011",
+      "vars_ordered": [
+        "d",
+        "b"
+      ],
+      "vars_used": [
+        "b",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(not_d,b)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Shelley is lying; Shahar is truthful",
+    "text_py": "    rule_3 = (not d) or b"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('d', 'b'))",
+    "canonical_id": "rule|surface|or(not_d,not_b)|speaker=2",
+    "equiv_id": "rule|truth|vars=b,d|tt=1110|speaker=2",
+    "meta": {
+      "canonical": "surface|or(not_d,not_b)",
+      "equiv": "truth|vars=b,d|tt=1110",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "or(not_d,not_b)",
+      "text_mode": "rule",
+      "truth_table": "1110",
+      "vars_ordered": [
+        "d",
+        "b"
+      ],
+      "vars_used": [
+        "b",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(not_d,not_b)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Shelley is lying; Shahar is lying",
+    "text_py": "    rule_3 = (not d) or (not b)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('d', 'c'))",
+    "canonical_id": "rule|surface|or(not_d,c)|speaker=2",
+    "equiv_id": "rule|truth|vars=c,d|tt=1011|speaker=2",
+    "meta": {
+      "canonical": "surface|or(not_d,c)",
+      "equiv": "truth|vars=c,d|tt=1011",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        0
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "or(not_d,c)",
+      "text_mode": "rule",
+      "truth_table": "1011",
+      "vars_ordered": [
+        "d",
+        "c"
+      ],
+      "vars_used": [
+        "c",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(not_d,c)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Shelley is lying; Noa is truthful",
+    "text_py": "    rule_3 = (not d) or c"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('d', 'c'))",
+    "canonical_id": "rule|surface|or(not_d,not_c)|speaker=0",
+    "equiv_id": "rule|truth|vars=c,d|tt=1110|speaker=0",
+    "meta": {
+      "canonical": "surface|or(not_d,not_c)",
+      "equiv": "truth|vars=c,d|tt=1110",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "or(not_d,not_c)",
+      "text_mode": "rule",
+      "truth_table": "1110",
+      "vars_ordered": [
+        "d",
+        "c"
+      ],
+      "vars_used": [
+        "c",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(not_d,not_c)|speaker=0",
+    "text_en": "Eyal says: at least one of the following is True: Shelley is lying; Noa is lying",
+    "text_py": "    rule_1 = (not d) or (not c)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('d', 'c'))",
+    "canonical_id": "rule|surface|or(not_d,not_c)|speaker=2",
+    "equiv_id": "rule|truth|vars=c,d|tt=1110|speaker=2",
+    "meta": {
+      "canonical": "surface|or(not_d,not_c)",
+      "equiv": "truth|vars=c,d|tt=1110",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        1
+      ],
+      "op": "or",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "or(not_d,not_c)",
+      "text_mode": "rule",
+      "truth_table": "1110",
+      "vars_ordered": [
+        "d",
+        "c"
+      ],
+      "vars_used": [
+        "c",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(not_d,not_c)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Shelley is lying; Noa is lying",
+    "text_py": "    rule_3 = (not d) or (not c)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'samevar', 'or', 'd')",
+    "canonical_id": "rule|surface|or(not_d,d)|speaker=2",
+    "equiv_id": "rule|truth|vars=d|tt=11|speaker=2",
+    "meta": {
+      "canonical": "surface|or(not_d,d)",
+      "equiv": "truth|vars=d|tt=11",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        0
+      ],
+      "op": "or",
+      "same_variable": 1,
+      "speaker_idx": 2,
+      "surface": "or(not_d,d)",
+      "text_mode": "rule",
+      "truth_table": "11",
+      "vars_ordered": [
+        "d",
+        "d"
+      ],
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(not_d,d)|speaker=2",
+    "text_en": "Noa says: at least one of the following is True: Shelley is lying; Shelley is truthful",
+    "text_py": "    rule_3 = (not d) or d"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'samevar', 'or', 'd')",
+    "canonical_id": "rule|surface|or(not_d,d)|speaker=3",
+    "equiv_id": "rule|truth|vars=d|tt=11|speaker=3",
+    "meta": {
+      "canonical": "surface|or(not_d,d)",
+      "equiv": "truth|vars=d|tt=11",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        0
+      ],
+      "op": "or",
+      "same_variable": 1,
+      "speaker_idx": 3,
+      "surface": "or(not_d,d)",
+      "text_mode": "rule",
+      "truth_table": "11",
+      "vars_ordered": [
+        "d",
+        "d"
+      ],
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "rule|or(not_d,d)|speaker=3",
+    "text_en": "Shelley says: at least one of the following is True: Shelley is lying; Shelley is truthful",
+    "text_py": "    rule_4 = (not d) or d"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'samevar', 'and', 'a')",
+    "canonical_id": "rule|surface|and(a,a)|speaker=3",
+    "equiv_id": "rule|truth|vars=a|tt=01|speaker=3",
+    "meta": {
+      "canonical": "surface|and(a,a)",
+      "equiv": "truth|vars=a|tt=01",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "and",
+      "same_variable": 1,
+      "speaker_idx": 3,
+      "surface": "and(a,a)",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "vars_ordered": [
+        "a",
+        "a"
+      ],
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "rule|and(a,a)|speaker=3",
+    "text_en": "Shelley says: both of the following are True: Eyal is truthful; Eyal is truthful",
+    "text_py": "    rule_4 = a and a"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'samevar', 'and', 'a')",
+    "canonical_id": "rule|surface|and(a,not_a)|speaker=0",
+    "equiv_id": "rule|truth|vars=a|tt=00|speaker=0",
+    "meta": {
+      "canonical": "surface|and(a,not_a)",
+      "equiv": "truth|vars=a|tt=00",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "and",
+      "same_variable": 1,
+      "speaker_idx": 0,
+      "surface": "and(a,not_a)",
+      "text_mode": "rule",
+      "truth_table": "00",
+      "vars_ordered": [
+        "a",
+        "a"
+      ],
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "rule|and(a,not_a)|speaker=0",
+    "text_en": "Eyal says: both of the following are True: Eyal is truthful; Eyal is lying",
+    "text_py": "    rule_1 = a and (not a)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'samevar', 'and', 'a')",
+    "canonical_id": "rule|surface|and(a,not_a)|speaker=1",
+    "equiv_id": "rule|truth|vars=a|tt=00|speaker=1",
+    "meta": {
+      "canonical": "surface|and(a,not_a)",
+      "equiv": "truth|vars=a|tt=00",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "and",
+      "same_variable": 1,
+      "speaker_idx": 1,
+      "surface": "and(a,not_a)",
+      "text_mode": "rule",
+      "truth_table": "00",
+      "vars_ordered": [
+        "a",
+        "a"
+      ],
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "rule|and(a,not_a)|speaker=1",
+    "text_en": "Shahar says: both of the following are True: Eyal is truthful; Eyal is lying",
+    "text_py": "    rule_2 = a and (not a)"
+  },
+  {
+    "bucket_key": "('logic', 'expr', 'bin_ordered_vars', ('a', 'b'))",
+    "canonical_id": "expr|surface|and(a,not_b)",
+    "equiv_id": "expr|truth|vars=a,b|tt=0010",
+    "meta": {
+      "canonical": "surface|and(a,not_b)",
+      "equiv": "truth|vars=a,b|tt=0010",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "surface": "and(a,not_b)",
+      "text_mode": "expr",
+      "truth_table": "0010",
+      "vars_ordered": [
+        "a",
+        "b"
+      ],
+      "vars_used": [
+        "a",
+        "b"
+      ]
+    },
+    "semantic_id": "expr|and(a,not_b)",
+    "text_en": "both of the following are True: Eyal is truthful; Shahar is lying",
+    "text_py": "a and (not b)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('a', 'b'))",
+    "canonical_id": "rule|surface|and(a,not_b)|speaker=0",
+    "equiv_id": "rule|truth|vars=a,b|tt=0010|speaker=0",
+    "meta": {
+      "canonical": "surface|and(a,not_b)",
+      "equiv": "truth|vars=a,b|tt=0010",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "and(a,not_b)",
+      "text_mode": "rule",
+      "truth_table": "0010",
+      "vars_ordered": [
+        "a",
+        "b"
+      ],
+      "vars_used": [
+        "a",
+        "b"
+      ]
+    },
+    "semantic_id": "rule|and(a,not_b)|speaker=0",
+    "text_en": "Eyal says: both of the following are True: Eyal is truthful; Shahar is lying",
+    "text_py": "    rule_1 = a and (not b)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('a', 'b'))",
+    "canonical_id": "rule|surface|and(a,not_b)|speaker=3",
+    "equiv_id": "rule|truth|vars=a,b|tt=0010|speaker=3",
+    "meta": {
+      "canonical": "surface|and(a,not_b)",
+      "equiv": "truth|vars=a,b|tt=0010",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "and(a,not_b)",
+      "text_mode": "rule",
+      "truth_table": "0010",
+      "vars_ordered": [
+        "a",
+        "b"
+      ],
+      "vars_used": [
+        "a",
+        "b"
+      ]
+    },
+    "semantic_id": "rule|and(a,not_b)|speaker=3",
+    "text_en": "Shelley says: both of the following are True: Eyal is truthful; Shahar is lying",
+    "text_py": "    rule_4 = a and (not b)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('a', 'c'))",
+    "canonical_id": "rule|surface|and(a,not_c)|speaker=0",
+    "equiv_id": "rule|truth|vars=a,c|tt=0010|speaker=0",
+    "meta": {
+      "canonical": "surface|and(a,not_c)",
+      "equiv": "truth|vars=a,c|tt=0010",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "and(a,not_c)",
+      "text_mode": "rule",
+      "truth_table": "0010",
+      "vars_ordered": [
+        "a",
+        "c"
+      ],
+      "vars_used": [
+        "a",
+        "c"
+      ]
+    },
+    "semantic_id": "rule|and(a,not_c)|speaker=0",
+    "text_en": "Eyal says: both of the following are True: Eyal is truthful; Noa is lying",
+    "text_py": "    rule_1 = a and (not c)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('a', 'c'))",
+    "canonical_id": "rule|surface|and(a,not_c)|speaker=1",
+    "equiv_id": "rule|truth|vars=a,c|tt=0010|speaker=1",
+    "meta": {
+      "canonical": "surface|and(a,not_c)",
+      "equiv": "truth|vars=a,c|tt=0010",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "and(a,not_c)",
+      "text_mode": "rule",
+      "truth_table": "0010",
+      "vars_ordered": [
+        "a",
+        "c"
+      ],
+      "vars_used": [
+        "a",
+        "c"
+      ]
+    },
+    "semantic_id": "rule|and(a,not_c)|speaker=1",
+    "text_en": "Shahar says: both of the following are True: Eyal is truthful; Noa is lying",
+    "text_py": "    rule_2 = a and (not c)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('a', 'd'))",
+    "canonical_id": "rule|surface|and(a,d)|speaker=2",
+    "equiv_id": "rule|truth|vars=a,d|tt=0001|speaker=2",
+    "meta": {
+      "canonical": "surface|and(a,d)",
+      "equiv": "truth|vars=a,d|tt=0001",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "and(a,d)",
+      "text_mode": "rule",
+      "truth_table": "0001",
+      "vars_ordered": [
+        "a",
+        "d"
+      ],
+      "vars_used": [
+        "a",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|and(a,d)|speaker=2",
+    "text_en": "Noa says: both of the following are True: Eyal is truthful; Shelley is truthful",
+    "text_py": "    rule_3 = a and d"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('a', 'd'))",
+    "canonical_id": "rule|surface|and(a,not_d)|speaker=0",
+    "equiv_id": "rule|truth|vars=a,d|tt=0010|speaker=0",
+    "meta": {
+      "canonical": "surface|and(a,not_d)",
+      "equiv": "truth|vars=a,d|tt=0010",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "and(a,not_d)",
+      "text_mode": "rule",
+      "truth_table": "0010",
+      "vars_ordered": [
+        "a",
+        "d"
+      ],
+      "vars_used": [
+        "a",
+        "d"
+      ]
+    },
+    "semantic_id": "rule|and(a,not_d)|speaker=0",
+    "text_en": "Eyal says: both of the following are True: Eyal is truthful; Shelley is lying",
+    "text_py": "    rule_1 = a and (not d)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'samevar', 'and', 'a')",
+    "canonical_id": "rule|surface|and(not_a,not_a)|speaker=0",
+    "equiv_id": "rule|truth|vars=a|tt=10|speaker=0",
+    "meta": {
+      "canonical": "surface|and(not_a,not_a)",
+      "equiv": "truth|vars=a|tt=10",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        1
+      ],
+      "op": "and",
+      "same_variable": 1,
+      "speaker_idx": 0,
+      "surface": "and(not_a,not_a)",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "vars_ordered": [
+        "a",
+        "a"
+      ],
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "rule|and(not_a,not_a)|speaker=0",
+    "text_en": "Eyal says: both of the following are True: Eyal is lying; Eyal is lying",
+    "text_py": "    rule_1 = (not a) and (not a)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('a', 'b'))",
+    "canonical_id": "rule|surface|and(not_a,b)|speaker=0",
+    "equiv_id": "rule|truth|vars=a,b|tt=0100|speaker=0",
+    "meta": {
+      "canonical": "surface|and(not_a,b)",
+      "equiv": "truth|vars=a,b|tt=0100",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        0
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "and(not_a,b)",
+      "text_mode": "rule",
+      "truth_table": "0100",
+      "vars_ordered": [
+        "a",
+        "b"
+      ],
+      "vars_used": [
+        "a",
+        "b"
+      ]
+    },
+    "semantic_id": "rule|and(not_a,b)|speaker=0",
+    "text_en": "Eyal says: both of the following are True: Eyal is lying; Shahar is truthful",
+    "text_py": "    rule_1 = (not a) and b"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('a', 'b'))",
+    "canonical_id": "rule|surface|and(not_a,not_b)|speaker=0",
+    "equiv_id": "rule|truth|vars=a,b|tt=1000|speaker=0",
+    "meta": {
+      "canonical": "surface|and(not_a,not_b)",
+      "equiv": "truth|vars=a,b|tt=1000",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        1
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "and(not_a,not_b)",
+      "text_mode": "rule",
+      "truth_table": "1000",
+      "vars_ordered": [
+        "a",
+        "b"
+      ],
+      "vars_used": [
+        "a",
+        "b"
+      ]
+    },
+    "semantic_id": "rule|and(not_a,not_b)|speaker=0",
+    "text_en": "Eyal says: both of the following are True: Eyal is lying; Shahar is lying",
+    "text_py": "    rule_1 = (not a) and (not b)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('a', 'c'))",
+    "canonical_id": "rule|surface|and(not_a,not_c)|speaker=0",
+    "equiv_id": "rule|truth|vars=a,c|tt=1000|speaker=0",
+    "meta": {
+      "canonical": "surface|and(not_a,not_c)",
+      "equiv": "truth|vars=a,c|tt=1000",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        1
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "and(not_a,not_c)",
+      "text_mode": "rule",
+      "truth_table": "1000",
+      "vars_ordered": [
+        "a",
+        "c"
+      ],
+      "vars_used": [
+        "a",
+        "c"
+      ]
+    },
+    "semantic_id": "rule|and(not_a,not_c)|speaker=0",
+    "text_en": "Eyal says: both of the following are True: Eyal is lying; Noa is lying",
+    "text_py": "    rule_1 = (not a) and (not c)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('b', 'a'))",
+    "canonical_id": "rule|surface|and(b,a)|speaker=1",
+    "equiv_id": "rule|truth|vars=a,b|tt=0001|speaker=1",
+    "meta": {
+      "canonical": "surface|and(b,a)",
+      "equiv": "truth|vars=a,b|tt=0001",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "and(b,a)",
+      "text_mode": "rule",
+      "truth_table": "0001",
+      "vars_ordered": [
+        "b",
+        "a"
+      ],
+      "vars_used": [
+        "a",
+        "b"
+      ]
+    },
+    "semantic_id": "rule|and(b,a)|speaker=1",
+    "text_en": "Shahar says: both of the following are True: Shahar is truthful; Eyal is truthful",
+    "text_py": "    rule_2 = b and a"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('b', 'a'))",
+    "canonical_id": "rule|surface|and(b,a)|speaker=2",
+    "equiv_id": "rule|truth|vars=a,b|tt=0001|speaker=2",
+    "meta": {
+      "canonical": "surface|and(b,a)",
+      "equiv": "truth|vars=a,b|tt=0001",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "and(b,a)",
+      "text_mode": "rule",
+      "truth_table": "0001",
+      "vars_ordered": [
+        "b",
+        "a"
+      ],
+      "vars_used": [
+        "a",
+        "b"
+      ]
+    },
+    "semantic_id": "rule|and(b,a)|speaker=2",
+    "text_en": "Noa says: both of the following are True: Shahar is truthful; Eyal is truthful",
+    "text_py": "    rule_3 = b and a"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('b', 'a'))",
+    "canonical_id": "rule|surface|and(b,not_a)|speaker=2",
+    "equiv_id": "rule|truth|vars=a,b|tt=0100|speaker=2",
+    "meta": {
+      "canonical": "surface|and(b,not_a)",
+      "equiv": "truth|vars=a,b|tt=0100",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "and(b,not_a)",
+      "text_mode": "rule",
+      "truth_table": "0100",
+      "vars_ordered": [
+        "b",
+        "a"
+      ],
+      "vars_used": [
+        "a",
+        "b"
+      ]
+    },
+    "semantic_id": "rule|and(b,not_a)|speaker=2",
+    "text_en": "Noa says: both of the following are True: Shahar is truthful; Eyal is lying",
+    "text_py": "    rule_3 = b and (not a)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'samevar', 'and', 'b')",
+    "canonical_id": "rule|surface|and(b,b)|speaker=2",
+    "equiv_id": "rule|truth|vars=b|tt=01|speaker=2",
+    "meta": {
+      "canonical": "surface|and(b,b)",
+      "equiv": "truth|vars=b|tt=01",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        0
+      ],
+      "op": "and",
+      "same_variable": 1,
+      "speaker_idx": 2,
+      "surface": "and(b,b)",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "vars_ordered": [
+        "b",
+        "b"
+      ],
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "rule|and(b,b)|speaker=2",
+    "text_en": "Noa says: both of the following are True: Shahar is truthful; Shahar is truthful",
+    "text_py": "    rule_3 = b and b"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'samevar', 'and', 'b')",
+    "canonical_id": "rule|surface|and(b,not_b)|speaker=0",
+    "equiv_id": "rule|truth|vars=b|tt=00|speaker=0",
+    "meta": {
+      "canonical": "surface|and(b,not_b)",
+      "equiv": "truth|vars=b|tt=00",
+      "kind": "bin",
+      "negs_ordered": [
+        0,
+        1
+      ],
+      "op": "and",
+      "same_variable": 1,
+      "speaker_idx": 0,
+      "surface": "and(b,not_b)",
+      "text_mode": "rule",
+      "truth_table": "00",
+      "vars_ordered": [
+        "b",
+        "b"
+      ],
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "rule|and(b,not_b)|speaker=0",
+    "text_en": "Eyal says: both of the following are True: Shahar is truthful; Shahar is lying",
+    "text_py": "    rule_1 = b and (not b)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('b', 'a'))",
+    "canonical_id": "rule|surface|and(not_b,a)|speaker=3",
+    "equiv_id": "rule|truth|vars=a,b|tt=0010|speaker=3",
+    "meta": {
+      "canonical": "surface|and(not_b,a)",
+      "equiv": "truth|vars=a,b|tt=0010",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        0
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "and(not_b,a)",
+      "text_mode": "rule",
+      "truth_table": "0010",
+      "vars_ordered": [
+        "b",
+        "a"
+      ],
+      "vars_used": [
+        "a",
+        "b"
+      ]
+    },
+    "semantic_id": "rule|and(not_b,a)|speaker=3",
+    "text_en": "Shelley says: both of the following are True: Shahar is lying; Eyal is truthful",
+    "text_py": "    rule_4 = (not b) and a"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('b', 'a'))",
+    "canonical_id": "rule|surface|and(not_b,not_a)|speaker=3",
+    "equiv_id": "rule|truth|vars=a,b|tt=1000|speaker=3",
+    "meta": {
+      "canonical": "surface|and(not_b,not_a)",
+      "equiv": "truth|vars=a,b|tt=1000",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        1
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "and(not_b,not_a)",
+      "text_mode": "rule",
+      "truth_table": "1000",
+      "vars_ordered": [
+        "b",
+        "a"
+      ],
+      "vars_used": [
+        "a",
+        "b"
+      ]
+    },
+    "semantic_id": "rule|and(not_b,not_a)|speaker=3",
+    "text_en": "Shelley says: both of the following are True: Shahar is lying; Eyal is lying",
+    "text_py": "    rule_4 = (not b) and (not a)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'samevar', 'and', 'b')",
+    "canonical_id": "rule|surface|and(not_b,b)|speaker=3",
+    "equiv_id": "rule|truth|vars=b|tt=00|speaker=3",
+    "meta": {
+      "canonical": "surface|and(not_b,b)",
+      "equiv": "truth|vars=b|tt=00",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        0
+      ],
+      "op": "and",
+      "same_variable": 1,
+      "speaker_idx": 3,
+      "surface": "and(not_b,b)",
+      "text_mode": "rule",
+      "truth_table": "00",
+      "vars_ordered": [
+        "b",
+        "b"
+      ],
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "rule|and(not_b,b)|speaker=3",
+    "text_en": "Shelley says: both of the following are True: Shahar is lying; Shahar is truthful",
+    "text_py": "    rule_4 = (not b) and b"
+  },
+  {
+    "bucket_key": "('logic', 'expr', 'samevar', 'and', 'b')",
+    "canonical_id": "expr|surface|and(not_b,not_b)",
+    "equiv_id": "expr|truth|vars=b|tt=10",
+    "meta": {
+      "canonical": "surface|and(not_b,not_b)",
+      "equiv": "truth|vars=b|tt=10",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        1
+      ],
+      "op": "and",
+      "same_variable": 1,
+      "surface": "and(not_b,not_b)",
+      "text_mode": "expr",
+      "truth_table": "10",
+      "vars_ordered": [
+        "b",
+        "b"
+      ],
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "expr|and(not_b,not_b)",
+    "text_en": "both of the following are True: Shahar is lying; Shahar is lying",
+    "text_py": "(not b) and (not b)"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('b', 'c'))",
+    "canonical_id": "rule|surface|and(not_b,c)|speaker=2",
+    "equiv_id": "rule|truth|vars=b,c|tt=0100|speaker=2",
+    "meta": {
+      "canonical": "surface|and(not_b,c)",
+      "equiv": "truth|vars=b,c|tt=0100",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        0
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "and(not_b,c)",
+      "text_mode": "rule",
+      "truth_table": "0100",
+      "vars_ordered": [
+        "b",
+        "c"
+      ],
+      "vars_used": [
+        "b",
+        "c"
+      ]
+    },
+    "semantic_id": "rule|and(not_b,c)|speaker=2",
+    "text_en": "Noa says: both of the following are True: Shahar is lying; Noa is truthful",
+    "text_py": "    rule_3 = (not b) and c"
+  },
+  {
+    "bucket_key": "('logic', 'rule', 'bin_ordered_vars', ('b', 'c'))",
+    "canonical_id": "rule|surface|and(not_b,not_c)|speaker=3",
+    "equiv_id": "rule|truth|vars=b,c|tt=1000|speaker=3",
+    "meta": {
+      "canonical": "surface|and(not_b,not_c)",
+      "equiv": "truth|vars=b,c|tt=1000",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        1
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "and(not_b,not_c)",
+      "text_mode": "rule",
+      "truth_table": "1000",
+      "vars_ordered": [
+        "b",
+        "c"
+      ],
+      "vars_used": [
+        "b",
+        "c"
+      ]
+    },
+    "semantic_id": "rule|and(not_b,not_c)|speaker=3",
+    "text_en": "Shelley says: both of the following are True: Shahar is lying; Noa is lying",
+    "text_py": "    rule_4 = (not b) and (not c)"
+  },
+  {
+    "bucket_key": "('logic', 'expr', 'bin_ordered_vars', ('b', 'd'))",
+    "canonical_id": "expr|surface|and(not_b,d)",
+    "equiv_id": "expr|truth|vars=b,d|tt=0100",
+    "meta": {
+      "canonical": "surface|and(not_b,d)",
+      "equiv": "truth|vars=b,d|tt=0100",
+      "kind": "bin",
+      "negs_ordered": [
+        1,
+        0
+      ],
+      "op": "and",
+      "same_variable": 0,
+      "surface": "and(not_b,d)",
+      "text_mode": "expr",
+      "truth_table": "0100",
+      "vars_ordered": [
+        "b",
+        "d"
+      ],
+      "vars_used": [
+        "b",
+        "d"
+      ]
+    },
+    "semantic_id": "expr|and(not_b,d)",
+    "text_en": "both of the following are True: Shahar is lying; Shelley is truthful",
+    "text_py": "(not b) and d"
+  }
+]
