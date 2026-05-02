@@ -1,0 +1,48 @@
+{
+  "dataset_id": "K-and-K/knights-and-knaves",
+  "target_ns": [
+    2,
+    3,
+    4
+  ],
+  "split_protection": {
+    "unit": "puzzle uid",
+    "train_puzzles": 1910,
+    "val_puzzles": 215,
+    "test_puzzles": 287,
+    "overlaps": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    }
+  },
+  "counts": {
+    "train_examples_full": 21964,
+    "english_train_main": 62100,
+    "english_train_finish": 8274,
+    "english_val": 2452,
+    "english_test": 2748,
+    "python_val": 2452,
+    "python_test": 2748,
+    "python_strict_atoms_train": 26128
+  },
+  "positive_rates": {
+    "train_full": 0.08696048078674194,
+    "english_train_main": 0.5,
+    "english_train_finish": 0.3333333333333333,
+    "english_val": 0.08768352365415986,
+    "english_test": 0.1044395924308588,
+    "python_strict_atoms_train": 0.41143600734843844
+  },
+  "artifacts": {
+    "english_train_main": "/content/drive/MyDrive/Test/PreparedData/english_train_main.jsonl",
+    "english_train_finish": "/content/drive/MyDrive/Test/PreparedData/english_train_finish.jsonl",
+    "english_val": "/content/drive/MyDrive/Test/PreparedData/english_val.jsonl",
+    "english_test": "/content/drive/MyDrive/Test/PreparedData/english_test.jsonl",
+    "python_val": "/content/drive/MyDrive/Test/PreparedData/python_val.jsonl",
+    "python_test": "/content/drive/MyDrive/Test/PreparedData/python_test.jsonl",
+    "python_strict_atoms_train": "/content/drive/MyDrive/Test/PreparedData/python_strict_atoms_train.jsonl",
+    "coverage_summary": "/content/drive/MyDrive/Test/PreparedData/prepared_data_results/english_phase_coverage_summary.json",
+    "coverage_raw": "/content/drive/MyDrive/Test/PreparedData/prepared_data_results/english_phase_coverage_raw.json"
+  }
+}
