@@ -1,0 +1,1911 @@
+[
+  {
+    "bucket_key": "('role_confusion', 'input_vs_atom', 'c', 'true')",
+    "canonical_id": "format|input_line|idx=2|val=1",
+    "equiv_id": "format|input_line|idx=2|val=1",
+    "meta": {
+      "confusion_type": "input_vs_atom",
+      "format_type": "input_line",
+      "idx": 2,
+      "kind": "format",
+      "role_confusion_view": 1,
+      "text_mode": "format",
+      "val": 1
+    },
+    "semantic_id": "format|input_line|idx=2|val=1",
+    "text_en": "c is defined as: True",
+    "text_py": "c = True"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_atom', 'c', 'true')",
+    "canonical_id": "expr|surface|c",
+    "equiv_id": "expr|truth|vars=c|tt=01",
+    "meta": {
+      "canonical": "surface|c",
+      "confusion_type": "input_vs_atom",
+      "equiv": "truth|vars=c|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "c",
+      "text_mode": "expr",
+      "truth_table": "01",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "expr|c",
+    "text_en": "c",
+    "text_py": "c"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_atom', 'c', 'false')",
+    "canonical_id": "format|input_line|idx=2|val=0",
+    "equiv_id": "format|input_line|idx=2|val=0",
+    "meta": {
+      "confusion_type": "input_vs_atom",
+      "format_type": "input_line",
+      "idx": 2,
+      "kind": "format",
+      "role_confusion_view": 1,
+      "text_mode": "format",
+      "val": 0
+    },
+    "semantic_id": "format|input_line|idx=2|val=0",
+    "text_en": "c is defined as: False",
+    "text_py": "c = False"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_atom', 'c', 'false')",
+    "canonical_id": "expr|surface|not_c",
+    "equiv_id": "expr|truth|vars=c|tt=10",
+    "meta": {
+      "canonical": "surface|not_c",
+      "confusion_type": "input_vs_atom",
+      "equiv": "truth|vars=c|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "not_c",
+      "text_mode": "expr",
+      "truth_table": "10",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "expr|not_c",
+    "text_en": "not c",
+    "text_py": "(not c)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_atom', 'd', 'false')",
+    "canonical_id": "format|input_line|idx=3|val=0",
+    "equiv_id": "format|input_line|idx=3|val=0",
+    "meta": {
+      "confusion_type": "input_vs_atom",
+      "format_type": "input_line",
+      "idx": 3,
+      "kind": "format",
+      "role_confusion_view": 1,
+      "text_mode": "format",
+      "val": 0
+    },
+    "semantic_id": "format|input_line|idx=3|val=0",
+    "text_en": "d is defined as: False",
+    "text_py": "d = False"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_atom', 'd', 'false')",
+    "canonical_id": "expr|surface|not_d",
+    "equiv_id": "expr|truth|vars=d|tt=10",
+    "meta": {
+      "canonical": "surface|not_d",
+      "confusion_type": "input_vs_atom",
+      "equiv": "truth|vars=d|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "not_d",
+      "text_mode": "expr",
+      "truth_table": "10",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "expr|not_d",
+    "text_en": "not d",
+    "text_py": "(not d)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'c', 'false', 'speaker=0')",
+    "canonical_id": "format|input_line|idx=2|val=0",
+    "equiv_id": "format|input_line|idx=2|val=0",
+    "meta": {
+      "confusion_type": "input_vs_rule_atom",
+      "format_type": "input_line",
+      "idx": 2,
+      "kind": "format",
+      "role_confusion_view": 1,
+      "text_mode": "format",
+      "val": 0
+    },
+    "semantic_id": "format|input_line|idx=2|val=0",
+    "text_en": "c is defined as: False",
+    "text_py": "c = False"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'c', 'false', 'speaker=0')",
+    "canonical_id": "rule|surface|not_c|speaker=0",
+    "equiv_id": "rule|truth|vars=c|tt=10|speaker=0",
+    "meta": {
+      "canonical": "surface|not_c",
+      "confusion_type": "input_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "not_c",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "rule|not_c|speaker=0",
+    "text_en": "rule_1 is defined as: not c",
+    "text_py": "rule_1 = (not c)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'c', 'true', 'speaker=1')",
+    "canonical_id": "format|input_line|idx=2|val=1",
+    "equiv_id": "format|input_line|idx=2|val=1",
+    "meta": {
+      "confusion_type": "input_vs_rule_atom",
+      "format_type": "input_line",
+      "idx": 2,
+      "kind": "format",
+      "role_confusion_view": 1,
+      "text_mode": "format",
+      "val": 1
+    },
+    "semantic_id": "format|input_line|idx=2|val=1",
+    "text_en": "c is defined as: True",
+    "text_py": "c = True"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'c', 'true', 'speaker=1')",
+    "canonical_id": "rule|surface|c|speaker=1",
+    "equiv_id": "rule|truth|vars=c|tt=01|speaker=1",
+    "meta": {
+      "canonical": "surface|c",
+      "confusion_type": "input_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "c",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "rule|c|speaker=1",
+    "text_en": "rule_2 is defined as: c",
+    "text_py": "rule_2 = c"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'c', 'false', 'speaker=1')",
+    "canonical_id": "format|input_line|idx=2|val=0",
+    "equiv_id": "format|input_line|idx=2|val=0",
+    "meta": {
+      "confusion_type": "input_vs_rule_atom",
+      "format_type": "input_line",
+      "idx": 2,
+      "kind": "format",
+      "role_confusion_view": 1,
+      "text_mode": "format",
+      "val": 0
+    },
+    "semantic_id": "format|input_line|idx=2|val=0",
+    "text_en": "c is defined as: False",
+    "text_py": "c = False"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'c', 'false', 'speaker=1')",
+    "canonical_id": "rule|surface|not_c|speaker=1",
+    "equiv_id": "rule|truth|vars=c|tt=10|speaker=1",
+    "meta": {
+      "canonical": "surface|not_c",
+      "confusion_type": "input_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "not_c",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "rule|not_c|speaker=1",
+    "text_en": "rule_2 is defined as: not c",
+    "text_py": "rule_2 = (not c)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'c', 'true', 'speaker=2')",
+    "canonical_id": "format|input_line|idx=2|val=1",
+    "equiv_id": "format|input_line|idx=2|val=1",
+    "meta": {
+      "confusion_type": "input_vs_rule_atom",
+      "format_type": "input_line",
+      "idx": 2,
+      "kind": "format",
+      "role_confusion_view": 1,
+      "text_mode": "format",
+      "val": 1
+    },
+    "semantic_id": "format|input_line|idx=2|val=1",
+    "text_en": "c is defined as: True",
+    "text_py": "c = True"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'c', 'true', 'speaker=2')",
+    "canonical_id": "rule|surface|c|speaker=2",
+    "equiv_id": "rule|truth|vars=c|tt=01|speaker=2",
+    "meta": {
+      "canonical": "surface|c",
+      "confusion_type": "input_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "c",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "rule|c|speaker=2",
+    "text_en": "rule_3 is defined as: c",
+    "text_py": "rule_3 = c"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'c', 'false', 'speaker=2')",
+    "canonical_id": "format|input_line|idx=2|val=0",
+    "equiv_id": "format|input_line|idx=2|val=0",
+    "meta": {
+      "confusion_type": "input_vs_rule_atom",
+      "format_type": "input_line",
+      "idx": 2,
+      "kind": "format",
+      "role_confusion_view": 1,
+      "text_mode": "format",
+      "val": 0
+    },
+    "semantic_id": "format|input_line|idx=2|val=0",
+    "text_en": "c is defined as: False",
+    "text_py": "c = False"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'c', 'false', 'speaker=2')",
+    "canonical_id": "rule|surface|not_c|speaker=2",
+    "equiv_id": "rule|truth|vars=c|tt=10|speaker=2",
+    "meta": {
+      "canonical": "surface|not_c",
+      "confusion_type": "input_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "not_c",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "rule|not_c|speaker=2",
+    "text_en": "rule_3 is defined as: not c",
+    "text_py": "rule_3 = (not c)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'c', 'true', 'speaker=3')",
+    "canonical_id": "format|input_line|idx=2|val=1",
+    "equiv_id": "format|input_line|idx=2|val=1",
+    "meta": {
+      "confusion_type": "input_vs_rule_atom",
+      "format_type": "input_line",
+      "idx": 2,
+      "kind": "format",
+      "role_confusion_view": 1,
+      "text_mode": "format",
+      "val": 1
+    },
+    "semantic_id": "format|input_line|idx=2|val=1",
+    "text_en": "c is defined as: True",
+    "text_py": "c = True"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'c', 'true', 'speaker=3')",
+    "canonical_id": "rule|surface|c|speaker=3",
+    "equiv_id": "rule|truth|vars=c|tt=01|speaker=3",
+    "meta": {
+      "canonical": "surface|c",
+      "confusion_type": "input_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "c",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "rule|c|speaker=3",
+    "text_en": "rule_4 is defined as: c",
+    "text_py": "rule_4 = c"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'c', 'false', 'speaker=3')",
+    "canonical_id": "format|input_line|idx=2|val=0",
+    "equiv_id": "format|input_line|idx=2|val=0",
+    "meta": {
+      "confusion_type": "input_vs_rule_atom",
+      "format_type": "input_line",
+      "idx": 2,
+      "kind": "format",
+      "role_confusion_view": 1,
+      "text_mode": "format",
+      "val": 0
+    },
+    "semantic_id": "format|input_line|idx=2|val=0",
+    "text_en": "c is defined as: False",
+    "text_py": "c = False"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'c', 'false', 'speaker=3')",
+    "canonical_id": "rule|surface|not_c|speaker=3",
+    "equiv_id": "rule|truth|vars=c|tt=10|speaker=3",
+    "meta": {
+      "canonical": "surface|not_c",
+      "confusion_type": "input_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "not_c",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "rule|not_c|speaker=3",
+    "text_en": "rule_4 is defined as: not c",
+    "text_py": "rule_4 = (not c)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'd', 'true', 'speaker=0')",
+    "canonical_id": "format|input_line|idx=3|val=1",
+    "equiv_id": "format|input_line|idx=3|val=1",
+    "meta": {
+      "confusion_type": "input_vs_rule_atom",
+      "format_type": "input_line",
+      "idx": 3,
+      "kind": "format",
+      "role_confusion_view": 1,
+      "text_mode": "format",
+      "val": 1
+    },
+    "semantic_id": "format|input_line|idx=3|val=1",
+    "text_en": "d is defined as: True",
+    "text_py": "d = True"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'd', 'true', 'speaker=0')",
+    "canonical_id": "rule|surface|d|speaker=0",
+    "equiv_id": "rule|truth|vars=d|tt=01|speaker=0",
+    "meta": {
+      "canonical": "surface|d",
+      "confusion_type": "input_vs_rule_atom",
+      "equiv": "truth|vars=d|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "d",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "rule|d|speaker=0",
+    "text_en": "rule_1 is defined as: d",
+    "text_py": "rule_1 = d"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'd', 'false', 'speaker=0')",
+    "canonical_id": "format|input_line|idx=3|val=0",
+    "equiv_id": "format|input_line|idx=3|val=0",
+    "meta": {
+      "confusion_type": "input_vs_rule_atom",
+      "format_type": "input_line",
+      "idx": 3,
+      "kind": "format",
+      "role_confusion_view": 1,
+      "text_mode": "format",
+      "val": 0
+    },
+    "semantic_id": "format|input_line|idx=3|val=0",
+    "text_en": "d is defined as: False",
+    "text_py": "d = False"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'd', 'false', 'speaker=0')",
+    "canonical_id": "rule|surface|not_d|speaker=0",
+    "equiv_id": "rule|truth|vars=d|tt=10|speaker=0",
+    "meta": {
+      "canonical": "surface|not_d",
+      "confusion_type": "input_vs_rule_atom",
+      "equiv": "truth|vars=d|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "not_d",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "rule|not_d|speaker=0",
+    "text_en": "rule_1 is defined as: not d",
+    "text_py": "rule_1 = (not d)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'd', 'false', 'speaker=1')",
+    "canonical_id": "format|input_line|idx=3|val=0",
+    "equiv_id": "format|input_line|idx=3|val=0",
+    "meta": {
+      "confusion_type": "input_vs_rule_atom",
+      "format_type": "input_line",
+      "idx": 3,
+      "kind": "format",
+      "role_confusion_view": 1,
+      "text_mode": "format",
+      "val": 0
+    },
+    "semantic_id": "format|input_line|idx=3|val=0",
+    "text_en": "d is defined as: False",
+    "text_py": "d = False"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'd', 'false', 'speaker=1')",
+    "canonical_id": "rule|surface|not_d|speaker=1",
+    "equiv_id": "rule|truth|vars=d|tt=10|speaker=1",
+    "meta": {
+      "canonical": "surface|not_d",
+      "confusion_type": "input_vs_rule_atom",
+      "equiv": "truth|vars=d|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "not_d",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "rule|not_d|speaker=1",
+    "text_en": "rule_2 is defined as: not d",
+    "text_py": "rule_2 = (not d)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'd', 'false', 'speaker=2')",
+    "canonical_id": "format|input_line|idx=3|val=0",
+    "equiv_id": "format|input_line|idx=3|val=0",
+    "meta": {
+      "confusion_type": "input_vs_rule_atom",
+      "format_type": "input_line",
+      "idx": 3,
+      "kind": "format",
+      "role_confusion_view": 1,
+      "text_mode": "format",
+      "val": 0
+    },
+    "semantic_id": "format|input_line|idx=3|val=0",
+    "text_en": "d is defined as: False",
+    "text_py": "d = False"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'd', 'false', 'speaker=2')",
+    "canonical_id": "rule|surface|not_d|speaker=2",
+    "equiv_id": "rule|truth|vars=d|tt=10|speaker=2",
+    "meta": {
+      "canonical": "surface|not_d",
+      "confusion_type": "input_vs_rule_atom",
+      "equiv": "truth|vars=d|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "not_d",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "rule|not_d|speaker=2",
+    "text_en": "rule_3 is defined as: not d",
+    "text_py": "rule_3 = (not d)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'd', 'true', 'speaker=3')",
+    "canonical_id": "format|input_line|idx=3|val=1",
+    "equiv_id": "format|input_line|idx=3|val=1",
+    "meta": {
+      "confusion_type": "input_vs_rule_atom",
+      "format_type": "input_line",
+      "idx": 3,
+      "kind": "format",
+      "role_confusion_view": 1,
+      "text_mode": "format",
+      "val": 1
+    },
+    "semantic_id": "format|input_line|idx=3|val=1",
+    "text_en": "d is defined as: True",
+    "text_py": "d = True"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'd', 'true', 'speaker=3')",
+    "canonical_id": "rule|surface|d|speaker=3",
+    "equiv_id": "rule|truth|vars=d|tt=01|speaker=3",
+    "meta": {
+      "canonical": "surface|d",
+      "confusion_type": "input_vs_rule_atom",
+      "equiv": "truth|vars=d|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "d",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "rule|d|speaker=3",
+    "text_en": "rule_4 is defined as: d",
+    "text_py": "rule_4 = d"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'd', 'false', 'speaker=3')",
+    "canonical_id": "format|input_line|idx=3|val=0",
+    "equiv_id": "format|input_line|idx=3|val=0",
+    "meta": {
+      "confusion_type": "input_vs_rule_atom",
+      "format_type": "input_line",
+      "idx": 3,
+      "kind": "format",
+      "role_confusion_view": 1,
+      "text_mode": "format",
+      "val": 0
+    },
+    "semantic_id": "format|input_line|idx=3|val=0",
+    "text_en": "d is defined as: False",
+    "text_py": "d = False"
+  },
+  {
+    "bucket_key": "('role_confusion', 'input_vs_rule_atom', 'd', 'false', 'speaker=3')",
+    "canonical_id": "rule|surface|not_d|speaker=3",
+    "equiv_id": "rule|truth|vars=d|tt=10|speaker=3",
+    "meta": {
+      "canonical": "surface|not_d",
+      "confusion_type": "input_vs_rule_atom",
+      "equiv": "truth|vars=d|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "not_d",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "rule|not_d|speaker=3",
+    "text_en": "rule_4 is defined as: not d",
+    "text_py": "rule_4 = (not d)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'a', 'pos', 'speaker=0')",
+    "canonical_id": "expr|surface|a",
+    "equiv_id": "expr|truth|vars=a|tt=01",
+    "meta": {
+      "canonical": "surface|a",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=a|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "a",
+      "text_mode": "expr",
+      "truth_table": "01",
+      "var": "a",
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "expr|a",
+    "text_en": "a",
+    "text_py": "a"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'a', 'pos', 'speaker=0')",
+    "canonical_id": "rule|surface|a|speaker=0",
+    "equiv_id": "rule|truth|vars=a|tt=01|speaker=0",
+    "meta": {
+      "canonical": "surface|a",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=a|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "a",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "a",
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "rule|a|speaker=0",
+    "text_en": "rule_1 is defined as: a",
+    "text_py": "rule_1 = a"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'a', 'pos', 'speaker=1')",
+    "canonical_id": "expr|surface|a",
+    "equiv_id": "expr|truth|vars=a|tt=01",
+    "meta": {
+      "canonical": "surface|a",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=a|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "a",
+      "text_mode": "expr",
+      "truth_table": "01",
+      "var": "a",
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "expr|a",
+    "text_en": "a",
+    "text_py": "a"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'a', 'pos', 'speaker=1')",
+    "canonical_id": "rule|surface|a|speaker=1",
+    "equiv_id": "rule|truth|vars=a|tt=01|speaker=1",
+    "meta": {
+      "canonical": "surface|a",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=a|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "a",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "a",
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "rule|a|speaker=1",
+    "text_en": "rule_2 is defined as: a",
+    "text_py": "rule_2 = a"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'a', 'pos', 'speaker=2')",
+    "canonical_id": "expr|surface|a",
+    "equiv_id": "expr|truth|vars=a|tt=01",
+    "meta": {
+      "canonical": "surface|a",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=a|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "a",
+      "text_mode": "expr",
+      "truth_table": "01",
+      "var": "a",
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "expr|a",
+    "text_en": "a",
+    "text_py": "a"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'a', 'pos', 'speaker=2')",
+    "canonical_id": "rule|surface|a|speaker=2",
+    "equiv_id": "rule|truth|vars=a|tt=01|speaker=2",
+    "meta": {
+      "canonical": "surface|a",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=a|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "a",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "a",
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "rule|a|speaker=2",
+    "text_en": "rule_3 is defined as: a",
+    "text_py": "rule_3 = a"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'a', 'neg', 'speaker=0')",
+    "canonical_id": "expr|surface|not_a",
+    "equiv_id": "expr|truth|vars=a|tt=10",
+    "meta": {
+      "canonical": "surface|not_a",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=a|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "not_a",
+      "text_mode": "expr",
+      "truth_table": "10",
+      "var": "a",
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "expr|not_a",
+    "text_en": "not a",
+    "text_py": "(not a)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'a', 'neg', 'speaker=0')",
+    "canonical_id": "rule|surface|not_a|speaker=0",
+    "equiv_id": "rule|truth|vars=a|tt=10|speaker=0",
+    "meta": {
+      "canonical": "surface|not_a",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=a|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "not_a",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "a",
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "rule|not_a|speaker=0",
+    "text_en": "rule_1 is defined as: not a",
+    "text_py": "rule_1 = (not a)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'a', 'neg', 'speaker=1')",
+    "canonical_id": "expr|surface|not_a",
+    "equiv_id": "expr|truth|vars=a|tt=10",
+    "meta": {
+      "canonical": "surface|not_a",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=a|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "not_a",
+      "text_mode": "expr",
+      "truth_table": "10",
+      "var": "a",
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "expr|not_a",
+    "text_en": "not a",
+    "text_py": "(not a)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'a', 'neg', 'speaker=1')",
+    "canonical_id": "rule|surface|not_a|speaker=1",
+    "equiv_id": "rule|truth|vars=a|tt=10|speaker=1",
+    "meta": {
+      "canonical": "surface|not_a",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=a|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "not_a",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "a",
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "rule|not_a|speaker=1",
+    "text_en": "rule_2 is defined as: not a",
+    "text_py": "rule_2 = (not a)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'a', 'neg', 'speaker=2')",
+    "canonical_id": "expr|surface|not_a",
+    "equiv_id": "expr|truth|vars=a|tt=10",
+    "meta": {
+      "canonical": "surface|not_a",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=a|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "not_a",
+      "text_mode": "expr",
+      "truth_table": "10",
+      "var": "a",
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "expr|not_a",
+    "text_en": "not a",
+    "text_py": "(not a)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'a', 'neg', 'speaker=2')",
+    "canonical_id": "rule|surface|not_a|speaker=2",
+    "equiv_id": "rule|truth|vars=a|tt=10|speaker=2",
+    "meta": {
+      "canonical": "surface|not_a",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=a|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "not_a",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "a",
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "rule|not_a|speaker=2",
+    "text_en": "rule_3 is defined as: not a",
+    "text_py": "rule_3 = (not a)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'a', 'neg', 'speaker=3')",
+    "canonical_id": "expr|surface|not_a",
+    "equiv_id": "expr|truth|vars=a|tt=10",
+    "meta": {
+      "canonical": "surface|not_a",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=a|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "not_a",
+      "text_mode": "expr",
+      "truth_table": "10",
+      "var": "a",
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "expr|not_a",
+    "text_en": "not a",
+    "text_py": "(not a)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'a', 'neg', 'speaker=3')",
+    "canonical_id": "rule|surface|not_a|speaker=3",
+    "equiv_id": "rule|truth|vars=a|tt=10|speaker=3",
+    "meta": {
+      "canonical": "surface|not_a",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=a|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "not_a",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "a",
+      "vars_used": [
+        "a"
+      ]
+    },
+    "semantic_id": "rule|not_a|speaker=3",
+    "text_en": "rule_4 is defined as: not a",
+    "text_py": "rule_4 = (not a)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'b', 'pos', 'speaker=0')",
+    "canonical_id": "expr|surface|b",
+    "equiv_id": "expr|truth|vars=b|tt=01",
+    "meta": {
+      "canonical": "surface|b",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=b|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "b",
+      "text_mode": "expr",
+      "truth_table": "01",
+      "var": "b",
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "expr|b",
+    "text_en": "b",
+    "text_py": "b"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'b', 'pos', 'speaker=0')",
+    "canonical_id": "rule|surface|b|speaker=0",
+    "equiv_id": "rule|truth|vars=b|tt=01|speaker=0",
+    "meta": {
+      "canonical": "surface|b",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=b|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "b",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "b",
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "rule|b|speaker=0",
+    "text_en": "rule_1 is defined as: b",
+    "text_py": "rule_1 = b"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'b', 'pos', 'speaker=1')",
+    "canonical_id": "expr|surface|b",
+    "equiv_id": "expr|truth|vars=b|tt=01",
+    "meta": {
+      "canonical": "surface|b",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=b|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "b",
+      "text_mode": "expr",
+      "truth_table": "01",
+      "var": "b",
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "expr|b",
+    "text_en": "b",
+    "text_py": "b"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'b', 'pos', 'speaker=1')",
+    "canonical_id": "rule|surface|b|speaker=1",
+    "equiv_id": "rule|truth|vars=b|tt=01|speaker=1",
+    "meta": {
+      "canonical": "surface|b",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=b|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "b",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "b",
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "rule|b|speaker=1",
+    "text_en": "rule_2 is defined as: b",
+    "text_py": "rule_2 = b"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'b', 'pos', 'speaker=2')",
+    "canonical_id": "expr|surface|b",
+    "equiv_id": "expr|truth|vars=b|tt=01",
+    "meta": {
+      "canonical": "surface|b",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=b|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "b",
+      "text_mode": "expr",
+      "truth_table": "01",
+      "var": "b",
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "expr|b",
+    "text_en": "b",
+    "text_py": "b"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'b', 'pos', 'speaker=2')",
+    "canonical_id": "rule|surface|b|speaker=2",
+    "equiv_id": "rule|truth|vars=b|tt=01|speaker=2",
+    "meta": {
+      "canonical": "surface|b",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=b|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "b",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "b",
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "rule|b|speaker=2",
+    "text_en": "rule_3 is defined as: b",
+    "text_py": "rule_3 = b"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'b', 'pos', 'speaker=3')",
+    "canonical_id": "expr|surface|b",
+    "equiv_id": "expr|truth|vars=b|tt=01",
+    "meta": {
+      "canonical": "surface|b",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=b|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "b",
+      "text_mode": "expr",
+      "truth_table": "01",
+      "var": "b",
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "expr|b",
+    "text_en": "b",
+    "text_py": "b"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'b', 'pos', 'speaker=3')",
+    "canonical_id": "rule|surface|b|speaker=3",
+    "equiv_id": "rule|truth|vars=b|tt=01|speaker=3",
+    "meta": {
+      "canonical": "surface|b",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=b|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "b",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "b",
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "rule|b|speaker=3",
+    "text_en": "rule_4 is defined as: b",
+    "text_py": "rule_4 = b"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'b', 'neg', 'speaker=0')",
+    "canonical_id": "expr|surface|not_b",
+    "equiv_id": "expr|truth|vars=b|tt=10",
+    "meta": {
+      "canonical": "surface|not_b",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=b|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "not_b",
+      "text_mode": "expr",
+      "truth_table": "10",
+      "var": "b",
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "expr|not_b",
+    "text_en": "not b",
+    "text_py": "(not b)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'b', 'neg', 'speaker=0')",
+    "canonical_id": "rule|surface|not_b|speaker=0",
+    "equiv_id": "rule|truth|vars=b|tt=10|speaker=0",
+    "meta": {
+      "canonical": "surface|not_b",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=b|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "not_b",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "b",
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "rule|not_b|speaker=0",
+    "text_en": "rule_1 is defined as: not b",
+    "text_py": "rule_1 = (not b)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'b', 'neg', 'speaker=2')",
+    "canonical_id": "expr|surface|not_b",
+    "equiv_id": "expr|truth|vars=b|tt=10",
+    "meta": {
+      "canonical": "surface|not_b",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=b|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "not_b",
+      "text_mode": "expr",
+      "truth_table": "10",
+      "var": "b",
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "expr|not_b",
+    "text_en": "not b",
+    "text_py": "(not b)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'b', 'neg', 'speaker=2')",
+    "canonical_id": "rule|surface|not_b|speaker=2",
+    "equiv_id": "rule|truth|vars=b|tt=10|speaker=2",
+    "meta": {
+      "canonical": "surface|not_b",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=b|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "not_b",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "b",
+      "vars_used": [
+        "b"
+      ]
+    },
+    "semantic_id": "rule|not_b|speaker=2",
+    "text_en": "rule_3 is defined as: not b",
+    "text_py": "rule_3 = (not b)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'c', 'pos', 'speaker=1')",
+    "canonical_id": "expr|surface|c",
+    "equiv_id": "expr|truth|vars=c|tt=01",
+    "meta": {
+      "canonical": "surface|c",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "c",
+      "text_mode": "expr",
+      "truth_table": "01",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "expr|c",
+    "text_en": "c",
+    "text_py": "c"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'c', 'pos', 'speaker=1')",
+    "canonical_id": "rule|surface|c|speaker=1",
+    "equiv_id": "rule|truth|vars=c|tt=01|speaker=1",
+    "meta": {
+      "canonical": "surface|c",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "c",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "rule|c|speaker=1",
+    "text_en": "rule_2 is defined as: c",
+    "text_py": "rule_2 = c"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'c', 'pos', 'speaker=2')",
+    "canonical_id": "expr|surface|c",
+    "equiv_id": "expr|truth|vars=c|tt=01",
+    "meta": {
+      "canonical": "surface|c",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "c",
+      "text_mode": "expr",
+      "truth_table": "01",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "expr|c",
+    "text_en": "c",
+    "text_py": "c"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'c', 'pos', 'speaker=2')",
+    "canonical_id": "rule|surface|c|speaker=2",
+    "equiv_id": "rule|truth|vars=c|tt=01|speaker=2",
+    "meta": {
+      "canonical": "surface|c",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "c",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "rule|c|speaker=2",
+    "text_en": "rule_3 is defined as: c",
+    "text_py": "rule_3 = c"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'c', 'pos', 'speaker=3')",
+    "canonical_id": "expr|surface|c",
+    "equiv_id": "expr|truth|vars=c|tt=01",
+    "meta": {
+      "canonical": "surface|c",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "c",
+      "text_mode": "expr",
+      "truth_table": "01",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "expr|c",
+    "text_en": "c",
+    "text_py": "c"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'c', 'pos', 'speaker=3')",
+    "canonical_id": "rule|surface|c|speaker=3",
+    "equiv_id": "rule|truth|vars=c|tt=01|speaker=3",
+    "meta": {
+      "canonical": "surface|c",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=01",
+      "kind": "atom",
+      "neg": 0,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "c",
+      "text_mode": "rule",
+      "truth_table": "01",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "rule|c|speaker=3",
+    "text_en": "rule_4 is defined as: c",
+    "text_py": "rule_4 = c"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'c', 'neg', 'speaker=0')",
+    "canonical_id": "expr|surface|not_c",
+    "equiv_id": "expr|truth|vars=c|tt=10",
+    "meta": {
+      "canonical": "surface|not_c",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "not_c",
+      "text_mode": "expr",
+      "truth_table": "10",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "expr|not_c",
+    "text_en": "not c",
+    "text_py": "(not c)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'c', 'neg', 'speaker=0')",
+    "canonical_id": "rule|surface|not_c|speaker=0",
+    "equiv_id": "rule|truth|vars=c|tt=10|speaker=0",
+    "meta": {
+      "canonical": "surface|not_c",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "not_c",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "rule|not_c|speaker=0",
+    "text_en": "rule_1 is defined as: not c",
+    "text_py": "rule_1 = (not c)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'c', 'neg', 'speaker=1')",
+    "canonical_id": "expr|surface|not_c",
+    "equiv_id": "expr|truth|vars=c|tt=10",
+    "meta": {
+      "canonical": "surface|not_c",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "not_c",
+      "text_mode": "expr",
+      "truth_table": "10",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "expr|not_c",
+    "text_en": "not c",
+    "text_py": "(not c)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'c', 'neg', 'speaker=1')",
+    "canonical_id": "rule|surface|not_c|speaker=1",
+    "equiv_id": "rule|truth|vars=c|tt=10|speaker=1",
+    "meta": {
+      "canonical": "surface|not_c",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "not_c",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "rule|not_c|speaker=1",
+    "text_en": "rule_2 is defined as: not c",
+    "text_py": "rule_2 = (not c)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'c', 'neg', 'speaker=2')",
+    "canonical_id": "expr|surface|not_c",
+    "equiv_id": "expr|truth|vars=c|tt=10",
+    "meta": {
+      "canonical": "surface|not_c",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "not_c",
+      "text_mode": "expr",
+      "truth_table": "10",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "expr|not_c",
+    "text_en": "not c",
+    "text_py": "(not c)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'c', 'neg', 'speaker=2')",
+    "canonical_id": "rule|surface|not_c|speaker=2",
+    "equiv_id": "rule|truth|vars=c|tt=10|speaker=2",
+    "meta": {
+      "canonical": "surface|not_c",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "not_c",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "rule|not_c|speaker=2",
+    "text_en": "rule_3 is defined as: not c",
+    "text_py": "rule_3 = (not c)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'c', 'neg', 'speaker=3')",
+    "canonical_id": "expr|surface|not_c",
+    "equiv_id": "expr|truth|vars=c|tt=10",
+    "meta": {
+      "canonical": "surface|not_c",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "not_c",
+      "text_mode": "expr",
+      "truth_table": "10",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "expr|not_c",
+    "text_en": "not c",
+    "text_py": "(not c)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'c', 'neg', 'speaker=3')",
+    "canonical_id": "rule|surface|not_c|speaker=3",
+    "equiv_id": "rule|truth|vars=c|tt=10|speaker=3",
+    "meta": {
+      "canonical": "surface|not_c",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=c|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "not_c",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "c",
+      "vars_used": [
+        "c"
+      ]
+    },
+    "semantic_id": "rule|not_c|speaker=3",
+    "text_en": "rule_4 is defined as: not c",
+    "text_py": "rule_4 = (not c)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'd', 'neg', 'speaker=0')",
+    "canonical_id": "expr|surface|not_d",
+    "equiv_id": "expr|truth|vars=d|tt=10",
+    "meta": {
+      "canonical": "surface|not_d",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=d|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "not_d",
+      "text_mode": "expr",
+      "truth_table": "10",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "expr|not_d",
+    "text_en": "not d",
+    "text_py": "(not d)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'd', 'neg', 'speaker=0')",
+    "canonical_id": "rule|surface|not_d|speaker=0",
+    "equiv_id": "rule|truth|vars=d|tt=10|speaker=0",
+    "meta": {
+      "canonical": "surface|not_d",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=d|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 0,
+      "surface": "not_d",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "rule|not_d|speaker=0",
+    "text_en": "rule_1 is defined as: not d",
+    "text_py": "rule_1 = (not d)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'd', 'neg', 'speaker=1')",
+    "canonical_id": "expr|surface|not_d",
+    "equiv_id": "expr|truth|vars=d|tt=10",
+    "meta": {
+      "canonical": "surface|not_d",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=d|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "not_d",
+      "text_mode": "expr",
+      "truth_table": "10",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "expr|not_d",
+    "text_en": "not d",
+    "text_py": "(not d)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'd', 'neg', 'speaker=1')",
+    "canonical_id": "rule|surface|not_d|speaker=1",
+    "equiv_id": "rule|truth|vars=d|tt=10|speaker=1",
+    "meta": {
+      "canonical": "surface|not_d",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=d|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 1,
+      "surface": "not_d",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "rule|not_d|speaker=1",
+    "text_en": "rule_2 is defined as: not d",
+    "text_py": "rule_2 = (not d)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'd', 'neg', 'speaker=2')",
+    "canonical_id": "expr|surface|not_d",
+    "equiv_id": "expr|truth|vars=d|tt=10",
+    "meta": {
+      "canonical": "surface|not_d",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=d|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "not_d",
+      "text_mode": "expr",
+      "truth_table": "10",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "expr|not_d",
+    "text_en": "not d",
+    "text_py": "(not d)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'd', 'neg', 'speaker=2')",
+    "canonical_id": "rule|surface|not_d|speaker=2",
+    "equiv_id": "rule|truth|vars=d|tt=10|speaker=2",
+    "meta": {
+      "canonical": "surface|not_d",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=d|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 2,
+      "surface": "not_d",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "rule|not_d|speaker=2",
+    "text_en": "rule_3 is defined as: not d",
+    "text_py": "rule_3 = (not d)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'd', 'neg', 'speaker=3')",
+    "canonical_id": "expr|surface|not_d",
+    "equiv_id": "expr|truth|vars=d|tt=10",
+    "meta": {
+      "canonical": "surface|not_d",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=d|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "surface": "not_d",
+      "text_mode": "expr",
+      "truth_table": "10",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "expr|not_d",
+    "text_en": "not d",
+    "text_py": "(not d)"
+  },
+  {
+    "bucket_key": "('role_confusion', 'expr_vs_rule_atom', 'd', 'neg', 'speaker=3')",
+    "canonical_id": "rule|surface|not_d|speaker=3",
+    "equiv_id": "rule|truth|vars=d|tt=10|speaker=3",
+    "meta": {
+      "canonical": "surface|not_d",
+      "confusion_type": "expr_vs_rule_atom",
+      "equiv": "truth|vars=d|tt=10",
+      "kind": "atom",
+      "neg": 1,
+      "op": null,
+      "role_confusion_view": 1,
+      "same_variable": 0,
+      "speaker_idx": 3,
+      "surface": "not_d",
+      "text_mode": "rule",
+      "truth_table": "10",
+      "var": "d",
+      "vars_used": [
+        "d"
+      ]
+    },
+    "semantic_id": "rule|not_d|speaker=3",
+    "text_en": "rule_4 is defined as: not d",
+    "text_py": "rule_4 = (not d)"
+  }
+]

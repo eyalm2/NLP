@@ -1,0 +1,12 @@
+{
+  "contrastive_scale": 2.0,
+  "data_seed": 42,
+  "format_row_weight": 1,
+  "full_prompt_rows": 0,
+  "idx": 6,
+  "name": "contrastive_2x",
+  "pooling": "last",
+  "split_seed": 42,
+  "temperature": 0.05,
+  "train_seed": 48
+}

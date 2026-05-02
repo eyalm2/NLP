@@ -1,0 +1,43 @@
+{
+  "model_name": "EleutherAI/pythia-1.4b-deduped",
+  "dataset_name": "codeparrot/codeparrot-clean",
+  "data_dir": null,
+  "seed": 42,
+  "n_train_files": 20000,
+  "n_val_files": 1000,
+  "num_train_rows": 20000,
+  "num_val_rows": 1000,
+  "max_chars_per_file": 4000,
+  "max_length": 256,
+  "epochs": 5,
+  "batch_size": 16,
+  "lr": 5e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.05,
+  "grad_accum": 1,
+  "max_grad_norm": 1.0,
+  "fp16": true,
+  "bf16": false,
+  "lora_r": 64,
+  "lora_alpha": 64,
+  "lora_dropout": 0.1,
+  "lora_target_modules": [
+    "query_key_value",
+    "dense",
+    "dense_h_to_4h",
+    "dense_4h_to_h"
+  ],
+  "split_protection": {
+    "unit": "sha256 text hash",
+    "train_val_overlap": 0
+  },
+  "best_eval_loss": 1.2557847499847412,
+  "eval_metrics": {
+    "eval_loss": 1.2557847499847412,
+    "perplexity": 3.510592222213745
+  },
+  "adapter_best_dir": "/content/drive/MyDrive/Test/Python/codeparrot_python_aux/best",
+  "adapter_last_dir": "/content/drive/MyDrive/Test/Python/codeparrot_python_aux/last",
+  "last_checkpoint_source": "/content/drive/MyDrive/Test/Python/codeparrot_python_aux/checkpoints/checkpoint-6250",
+  "selection_rule": "best adapter is selected by lowest eval_loss"
+}
