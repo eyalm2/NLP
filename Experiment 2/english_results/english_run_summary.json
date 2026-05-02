@@ -1,0 +1,159 @@
+{
+  "model_id": "EleutherAI/pythia-1.4b-deduped",
+  "settings": {
+    "seed": 42,
+    "dtype": "torch.float16",
+    "train_bs": 16,
+    "eval_bs": 16,
+    "grad_accum": 1,
+    "lr": 5e-05,
+    "weight_decay": 0.01,
+    "warmup": 0.05,
+    "lora": {
+      "r": 64,
+      "lora_alpha": 64,
+      "lora_dropout": 0.1
+    },
+    "english_epochs": {
+      "main": 1,
+      "finish": 1
+    }
+  },
+  "paths": {
+    "best": "/content/drive/MyDrive/Test/English/adapter_task_en_best",
+    "last": "/content/drive/MyDrive/Test/English/adapter_task_en_last",
+    "results": "/content/drive/MyDrive/Test/English/english_results"
+  },
+  "counts": {
+    "train_main": 62100,
+    "train_finish": 8274,
+    "english_val": 2452,
+    "english_test": 2748,
+    "python_val": 2452,
+    "python_test": 2748
+  },
+  "positive_rates": {
+    "train_main": 0.5,
+    "train_finish": 0.3333333333333333,
+    "english_val": 0.08768352365415986,
+    "english_test": 0.1044395924308588,
+    "python_val": 0.08768352365415986,
+    "python_test": 0.1044395924308588
+  },
+  "uid_overlap": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "history": [
+    {
+      "phase": "main",
+      "epoch": 1,
+      "update": 3882,
+      "train_loss": 0.42631994897280723,
+      "val": {
+        "accuracy": 0.9090538336052202,
+        "balanced_accuracy": 0.8114199873169008,
+        "precision_pos": 0.4869281045751634,
+        "recall_pos": 0.6930232558139535,
+        "f1_pos": 0.5719769673704415,
+        "mcc": 0.5330318110917983,
+        "average_precision": 0.5939992921565451,
+        "tp": 149,
+        "fp": 157,
+        "tn": 2080,
+        "fn": 66,
+        "positive_rate_gold": 0.08768352365415986,
+        "positive_rate_pred": 0.12479608482871125,
+        "loss": 0.26403875784063674,
+        "evaluated_rows": 2452,
+        "mistake_count": 223,
+        "mistake_rate": 0.09094616639477977
+      }
+    },
+    {
+      "phase": "finish",
+      "epoch": 1,
+      "update": 4400,
+      "train_loss": 0.12806359014424554,
+      "val": {
+        "accuracy": 0.9196574225122349,
+        "balanced_accuracy": 0.8025168674824048,
+        "precision_pos": 0.5338345864661654,
+        "recall_pos": 0.6604651162790698,
+        "f1_pos": 0.5904365904365905,
+        "mcc": 0.5502574297413253,
+        "average_precision": 0.5915776584317889,
+        "tp": 142,
+        "fp": 124,
+        "tn": 2113,
+        "fn": 73,
+        "positive_rate_gold": 0.08768352365415986,
+        "positive_rate_pred": 0.10848287112561175,
+        "loss": 0.26581296192941317,
+        "evaluated_rows": 2452,
+        "mistake_count": 197,
+        "mistake_rate": 0.08034257748776509
+      }
+    }
+  ],
+  "best_val_during_train": {
+    "accuracy": 0.9196574225122349,
+    "balanced_accuracy": 0.8025168674824048,
+    "precision_pos": 0.5338345864661654,
+    "recall_pos": 0.6604651162790698,
+    "f1_pos": 0.5904365904365905,
+    "mcc": 0.5502574297413253,
+    "average_precision": 0.5915776584317889,
+    "tp": 142,
+    "fp": 124,
+    "tn": 2113,
+    "fn": 73,
+    "positive_rate_gold": 0.08768352365415986,
+    "positive_rate_pred": 0.10848287112561175,
+    "loss": 0.26581296192941317,
+    "evaluated_rows": 2452,
+    "mistake_count": 197,
+    "mistake_rate": 0.08034257748776509
+  },
+  "english_best": {
+    "english_val": {
+      "accuracy": 0.9196574225122349,
+      "balanced_accuracy": 0.8025168674824048,
+      "precision_pos": 0.5338345864661654,
+      "recall_pos": 0.6604651162790698,
+      "f1_pos": 0.5904365904365905,
+      "mcc": 0.5502574297413253,
+      "average_precision": 0.5915776584317889,
+      "tp": 142,
+      "fp": 124,
+      "tn": 2113,
+      "fn": 73,
+      "positive_rate_gold": 0.08768352365415986,
+      "positive_rate_pred": 0.10848287112561175,
+      "loss": 0.26581296192941317,
+      "evaluated_rows": 2452,
+      "mistake_count": 197,
+      "mistake_rate": 0.08034257748776509
+    },
+    "english_test": {
+      "accuracy": 0.9228529839883551,
+      "balanced_accuracy": 0.8353478020181027,
+      "precision_pos": 0.6099706744868035,
+      "recall_pos": 0.7247386759581882,
+      "f1_pos": 0.6624203821656051,
+      "mcc": 0.6221670117499506,
+      "average_precision": 0.7095736160676875,
+      "tp": 208,
+      "fp": 133,
+      "tn": 2328,
+      "fn": 79,
+      "positive_rate_gold": 0.1044395924308588,
+      "positive_rate_pred": 0.12409024745269287,
+      "loss": 0.2281427735079097,
+      "evaluated_rows": 2748,
+      "mistake_count": 212,
+      "mistake_rate": 0.07714701601164484
+    }
+  }
+}
