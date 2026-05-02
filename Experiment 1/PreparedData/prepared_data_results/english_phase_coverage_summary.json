@@ -1,0 +1,24 @@
+{
+  "main": {
+    "num_puzzles": 1910,
+    "avg_true_draws": 16.2565445026178,
+    "avg_false_per_true": 1.0,
+    "avg_true_available": 1.0,
+    "avg_false_available": 10.499476439790575,
+    "avg_true_unique_used": 1.0,
+    "avg_false_unique_used": 9.986387434554974,
+    "all_true_full_coverage": true,
+    "all_false_full_coverage": false
+  },
+  "finish": {
+    "num_puzzles": 1386,
+    "avg_true_draws": 1.9898989898989898,
+    "avg_false_per_true": 2.0,
+    "avg_true_available": 1.0,
+    "avg_false_available": 12.024531024531024,
+    "avg_true_unique_used": 1.0,
+    "avg_false_unique_used": 3.0685425685425685,
+    "all_true_full_coverage": true,
+    "all_false_full_coverage": false
+  }
+}
